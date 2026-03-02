@@ -31,12 +31,38 @@ jobs:
       run: cd provider_flutter_v11.14.3 && flutter pub get
 
     - name: Create User Keystore
+      env:
+        USER_KEYSTORE_B64: ${{ secrets.USER_KEYSTORE }}
       run: |
-        echo "${{ secrets.USER_KEYSTORE }}" | base64 --decode > user_keystore.jks
+        if [ -z "$USER_KEYSTORE_B64" ]; then
+          echo "USER_KEYSTORE secret is empty"
+          exit 1
+        fi
+
+        printf '%s' "$USER_KEYSTORE_B64" \
+          | sed -E 's#^data:.*;base64,##' \
+          | tr -d '\r\n\t ' \
+          | tr '_-' '/+' \
+          | base64 --decode --ignore-garbage > user_keystore.jks
+
+        test -s user_keystore.jks
 
     - name: Create Provider Keystore
+      env:
+        PROVIDER_KEYSTORE_B64: ${{ secrets.PROVIDER_KEYSTORE }}
       run: |
-        echo "${{ secrets.PROVIDER_KEYSTORE }}" | base64 --decode > provider_keystore.jks
+        if [ -z "$PROVIDER_KEYSTORE_B64" ]; then
+          echo "PROVIDER_KEYSTORE secret is empty"
+          exit 1
+        fi
+
+        printf '%s' "$PROVIDER_KEYSTORE_B64" \
+          | sed -E 's#^data:.*;base64,##' \
+          | tr -d '\r\n\t ' \
+          | tr '_-' '/+' \
+          | base64 --decode --ignore-garbage > provider_keystore.jks
+
+        test -s provider_keystore.jks
 
     - name: Build User APK Release
       working-directory: handyman_user_flutter_v11.14.3
