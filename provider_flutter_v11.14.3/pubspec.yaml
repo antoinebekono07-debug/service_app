@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 11.14.2+99
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.10.3 <4.0.0"
 
 dependencies:
   flutter:
@@ -17,7 +17,7 @@ dependencies:
   google_fonts: ^6.2.1
   html: ^0.15.5+1
   http: ^1.4.0
-  intl: ^0.18.1
+  intl: ^0.20.2
   url_launcher: ^6.3.2
   flutter_vector_icons: ^2.0.0
   path_provider: ^2.1.5
@@ -37,7 +37,7 @@ dependencies:
   flutter_html: ^3.0.0-beta.2
   flutter_custom_tabs: ^2.4.0
   syncfusion_flutter_charts: ^30.1.42
-  geocoding: ^3.2.0
+  geocoding: ^4.0.0
   webview_flutter: ^4.13.0
   country_picker: ^2.0.27
 
