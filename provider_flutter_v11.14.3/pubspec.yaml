@@ -17,7 +17,7 @@ dependencies:
   google_fonts: ^6.2.1
   html: ^0.15.5+1
   http: ^1.4.0
-  intl: ^0.20.2
+  intl: ^0.18.1
   url_launcher: ^6.3.2
   flutter_vector_icons: ^2.0.0
   path_provider: ^2.1.5
