@@ -36,7 +36,7 @@ jobs:
         run: |
           set -e
           decode_ok=0
-          USER_KEYSTORE_PATH="handyman_user_flutter_v11.14.3/user_keystore.jks"
+          USER_KEYSTORE_PATH="user_keystore.jks"
 
           if [ -n "$USER_KEYSTORE_B64" ]; then
             if printf '%s' "$USER_KEYSTORE_B64" \
@@ -71,7 +71,7 @@ jobs:
         run: |
           set -e
           decode_ok=0
-          PROVIDER_KEYSTORE_PATH="provider_flutter_v11.14.3/provider_keystore.jks"
+          PROVIDER_KEYSTORE_PATH="provider_keystore.jks"
 
           if [ -n "$PROVIDER_KEYSTORE_B64" ]; then
             if printf '%s' "$PROVIDER_KEYSTORE_B64" \
