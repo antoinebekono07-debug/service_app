@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Setup Java
-      uses: actions/setup-java@v3
+      uses: actions/setup-java@v4
       with:
         java-version: '17'
         distribution: 'temurin'
@@ -53,13 +53,13 @@ jobs:
           --build-number=99
 
     - name: Upload User APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: handyman-user-release-apk
         path: handyman_user_flutter_v11.14.3/build/app/outputs/flutter-apk/app-release.apk
 
     - name: Upload Provider APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: handyman-provider-release-apk
         path: provider_flutter_v11.14.3/build/app/outputs/flutter-apk/app-release.apk
