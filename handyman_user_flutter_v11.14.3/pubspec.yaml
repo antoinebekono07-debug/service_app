@@ -91,7 +91,7 @@ dependencies:
   # MAP
   google_maps_flutter: ^2.12.3
   geolocator: ^14.0.2
-  geocoding: ^4.0.0
+  geocoding: ^3.2.0
 
   crypto: ^3.0.6 #required for in phonepe
 

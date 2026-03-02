@@ -37,7 +37,7 @@ dependencies:
   flutter_html: ^3.0.0-beta.2
   flutter_custom_tabs: ^2.4.0
   syncfusion_flutter_charts: ^30.1.42
-  geocoding: ^4.0.0
+  geocoding: ^3.2.0
   webview_flutter: ^4.13.0
   country_picker: ^2.0.27
 
