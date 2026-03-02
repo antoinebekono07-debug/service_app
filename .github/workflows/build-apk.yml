@@ -45,8 +45,16 @@ jobs:
               | tr '_-' '/+' \
               | base64 --decode --ignore-garbage > "$USER_KEYSTORE_PATH" 2>/dev/null; then
               if [ -s "$USER_KEYSTORE_PATH" ]; then
-                decode_ok=1
-                echo "User keystore decoded from USER_KEYSTORE secret."
+                if keytool -list \
+                  -keystore "$USER_KEYSTORE_PATH" \
+                  -storepass 'Antoine@2025' \
+                  -alias 'user_key' >/dev/null 2>&1; then
+                  decode_ok=1
+                  echo "User keystore decoded from USER_KEYSTORE secret."
+                else
+                  echo "Decoded USER keystore is invalid for configured alias/password; fallback will be generated."
+                  rm -f "$USER_KEYSTORE_PATH"
+                fi
               fi
             fi
           fi
@@ -80,8 +88,16 @@ jobs:
               | tr '_-' '/+' \
               | base64 --decode --ignore-garbage > "$PROVIDER_KEYSTORE_PATH" 2>/dev/null; then
               if [ -s "$PROVIDER_KEYSTORE_PATH" ]; then
-                decode_ok=1
-                echo "Provider keystore decoded from PROVIDER_KEYSTORE secret."
+                if keytool -list \
+                  -keystore "$PROVIDER_KEYSTORE_PATH" \
+                  -storepass 'Antoine@2025' \
+                  -alias 'provider_key' >/dev/null 2>&1; then
+                  decode_ok=1
+                  echo "Provider keystore decoded from PROVIDER_KEYSTORE secret."
+                else
+                  echo "Decoded PROVIDER keystore is invalid for configured alias/password; fallback will be generated."
+                  rm -f "$PROVIDER_KEYSTORE_PATH"
+                fi
               fi
             fi
           fi
