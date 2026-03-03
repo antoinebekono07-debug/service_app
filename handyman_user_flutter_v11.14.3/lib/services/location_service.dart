@@ -36,7 +36,7 @@ Future<Position> getUserLocationPosition() async {
       }
     }).catchError((e) {
       toast(e.toString());
-      rethrow; // Rethrow to handle at higher level
+      throw e; // Throw to handle at higher level
     });
   });
 }

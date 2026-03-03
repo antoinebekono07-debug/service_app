@@ -32,8 +32,8 @@ class CinetPayServicesNew {
   Widget cinetPay() {
     String cinetPayApiKey = '';
     String siteId = '';
+    String secretKey = '';
     // Note: secretKey is obtained from local/remote config
-    // String secretKey = ''; // Removed unused variable
 
     if (paymentSetting.isTest == 1) {
       cinetPayApiKey = paymentSetting.testValue!.cinetPublicKey!;
