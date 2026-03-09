@@ -1,4 +1,4 @@
-import 'package:lotech/models/provider_subscription_model.dart';
+import 'package:handyman_provider_flutter/models/provider_subscription_model.dart';
 
 class PlanRequestModel {
   int? amount;

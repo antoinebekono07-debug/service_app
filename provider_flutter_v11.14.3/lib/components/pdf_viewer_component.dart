@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:lotech/components/base_scaffold_widget.dart';
+import 'package:handyman_provider_flutter/components/base_scaffold_widget.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import '../main.dart';
 

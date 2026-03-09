@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/components/price_widget.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/models/provider_subscription_model.dart';
-import 'package:lotech/networks/rest_apis.dart';
-import 'package:lotech/provider/provider_dashboard_screen.dart';
-import 'package:lotech/utils/common.dart';
-import 'package:lotech/utils/configs.dart';
-import 'package:lotech/utils/constant.dart';
-import 'package:lotech/utils/model_keys.dart';
+import 'package:handyman_provider_flutter/components/price_widget.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/provider_subscription_model.dart';
+import 'package:handyman_provider_flutter/networks/rest_apis.dart';
+import 'package:handyman_provider_flutter/provider/provider_dashboard_screen.dart';
+import 'package:handyman_provider_flutter/utils/common.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
+import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:handyman_provider_flutter/utils/model_keys.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:url_launcher/url_launcher.dart';
 

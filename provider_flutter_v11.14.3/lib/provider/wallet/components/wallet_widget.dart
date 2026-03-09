@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/components/price_widget.dart';
-import 'package:lotech/models/wallet_history_list_response.dart';
-import 'package:lotech/utils/common.dart';
-import 'package:lotech/utils/configs.dart';
-import 'package:lotech/utils/constant.dart';
+import 'package:handyman_provider_flutter/components/price_widget.dart';
+import 'package:handyman_provider_flutter/models/wallet_history_list_response.dart';
+import 'package:handyman_provider_flutter/utils/common.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
+import 'package:handyman_provider_flutter/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 ///Remove unused widget

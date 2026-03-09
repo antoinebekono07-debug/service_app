@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/components/base_scaffold_widget.dart';
+import 'package:handyman_provider_flutter/components/base_scaffold_widget.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../components/app_widgets.dart';

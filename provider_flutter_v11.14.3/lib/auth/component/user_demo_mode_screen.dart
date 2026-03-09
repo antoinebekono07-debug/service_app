@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/utils/configs.dart';
-import 'package:lotech/utils/constant.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
+import 'package:handyman_provider_flutter/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class UserDemoModeScreen extends StatefulWidget {

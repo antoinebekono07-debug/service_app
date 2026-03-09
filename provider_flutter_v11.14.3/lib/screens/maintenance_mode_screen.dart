@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/networks/rest_apis.dart';
-import 'package:lotech/utils/constant.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/networks/rest_apis.dart';
+import 'package:handyman_provider_flutter/utils/constant.dart';
 import 'package:lottie/lottie.dart';
 import 'package:nb_utils/nb_utils.dart';
 

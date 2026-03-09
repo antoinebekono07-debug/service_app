@@ -1,10 +1,10 @@
 import 'package:async/async.dart';
 import 'package:flutter/material.dart';
-import 'package:lotech/models/booking_status_response.dart';
-import 'package:lotech/networks/rest_apis.dart';
-import 'package:lotech/utils/common.dart';
-import 'package:lotech/utils/constant.dart';
-import 'package:lotech/utils/extensions/string_extension.dart';
+import 'package:handyman_provider_flutter/models/booking_status_response.dart';
+import 'package:handyman_provider_flutter/networks/rest_apis.dart';
+import 'package:handyman_provider_flutter/utils/common.dart';
+import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:handyman_provider_flutter/utils/extensions/string_extension.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../main.dart';

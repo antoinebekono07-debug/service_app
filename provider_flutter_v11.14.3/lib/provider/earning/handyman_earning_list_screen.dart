@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/provider/earning/shimmer/handyman_earning_list_shimmer.dart';
+import 'package:handyman_provider_flutter/provider/earning/shimmer/handyman_earning_list_shimmer.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../components/base_scaffold_widget.dart';

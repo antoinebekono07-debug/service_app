@@ -1,4 +1,4 @@
-import 'package:lotech/locale/base_language.dart';
+import 'package:handyman_provider_flutter/locale/base_language.dart';
 
 class LanguageAr extends Languages {
   @override

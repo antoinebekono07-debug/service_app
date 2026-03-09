@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:lotech/models/attachment_model.dart';
-import 'package:lotech/models/pagination_model.dart';
-import 'package:lotech/models/service_model.dart';
+import 'package:handyman_provider_flutter/models/attachment_model.dart';
+import 'package:handyman_provider_flutter/models/pagination_model.dart';
+import 'package:handyman_provider_flutter/models/service_model.dart';
 
 import 'multi_language_request_model.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/models/booking_list_response.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/booking_list_response.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../components/booking_item_component.dart';

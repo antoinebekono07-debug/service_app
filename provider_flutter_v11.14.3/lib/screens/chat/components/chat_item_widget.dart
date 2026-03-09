@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/components/app_widgets.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/models/chat_message_model.dart';
-import 'package:lotech/screens/zoom_image_screen.dart';
-import 'package:lotech/utils/common.dart';
-import 'package:lotech/utils/configs.dart';
-import 'package:lotech/utils/constant.dart';
-import 'package:lotech/utils/extensions/string_extension.dart';
+import 'package:handyman_provider_flutter/components/app_widgets.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/chat_message_model.dart';
+import 'package:handyman_provider_flutter/screens/zoom_image_screen.dart';
+import 'package:handyman_provider_flutter/utils/common.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
+import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:handyman_provider_flutter/utils/extensions/string_extension.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../components/cached_image_widget.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:lotech/components/base_scaffold_widget.dart';
-import 'package:lotech/provider/promotional_banner/shimmer/promotional_banner_list_shimmer.dart';
-import 'package:lotech/utils/extensions/string_extension.dart';
+import 'package:handyman_provider_flutter/components/base_scaffold_widget.dart';
+import 'package:handyman_provider_flutter/provider/promotional_banner/shimmer/promotional_banner_list_shimmer.dart';
+import 'package:handyman_provider_flutter/utils/extensions/string_extension.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../components/app_widgets.dart';

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/components/cached_image_widget.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/models/user_data.dart';
-import 'package:lotech/screens/chat/components/last_messege_chat.dart';
-import 'package:lotech/screens/chat/user_chat_screen.dart';
-import 'package:lotech/utils/configs.dart';
+import 'package:handyman_provider_flutter/components/cached_image_widget.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/user_data.dart';
+import 'package:handyman_provider_flutter/screens/chat/components/last_messege_chat.dart';
+import 'package:handyman_provider_flutter/screens/chat/user_chat_screen.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class UserItemWidget extends StatefulWidget {

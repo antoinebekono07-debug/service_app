@@ -1,4 +1,4 @@
-import 'package:lotech/provider/jobRequest/models/post_job_data.dart';
+import 'package:handyman_provider_flutter/provider/jobRequest/models/post_job_data.dart';
 
 import 'bidder_data.dart';
 

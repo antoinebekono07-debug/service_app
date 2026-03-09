@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/components/back_widget.dart';
-import 'package:lotech/components/price_widget.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/screens/extra_charges/components/add_extra_charge_dialog.dart';
-import 'package:lotech/utils/extensions/string_extension.dart';
+import 'package:handyman_provider_flutter/components/back_widget.dart';
+import 'package:handyman_provider_flutter/components/price_widget.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/screens/extra_charges/components/add_extra_charge_dialog.dart';
+import 'package:handyman_provider_flutter/utils/extensions/string_extension.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../components/empty_error_state_widget.dart';

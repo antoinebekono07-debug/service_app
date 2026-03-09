@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/models/about_model.dart';
-import 'package:lotech/utils/common.dart';
-import 'package:lotech/utils/configs.dart';
-import 'package:lotech/utils/data_provider.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/about_model.dart';
+import 'package:handyman_provider_flutter/utils/common.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
+import 'package:handyman_provider_flutter/utils/data_provider.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/components/spin_kit_chasing_dots.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/models/booking_list_response.dart';
-import 'package:lotech/utils/configs.dart';
-import 'package:lotech/utils/constant.dart';
+import 'package:handyman_provider_flutter/components/spin_kit_chasing_dots.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/booking_list_response.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
+import 'package:handyman_provider_flutter/utils/constant.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:url_launcher/url_launcher.dart';

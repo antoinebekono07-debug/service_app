@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/models/revenue_chart_data.dart';
-import 'package:lotech/utils/configs.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/revenue_chart_data.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:lotech/components/app_widgets.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/provider/timeSlots/components/available_slots_component.dart';
-import 'package:lotech/provider/timeSlots/components/days_bottom_sheet.dart';
-import 'package:lotech/provider/timeSlots/models/slot_data.dart';
-import 'package:lotech/utils/colors.dart';
-import 'package:lotech/utils/configs.dart';
-import 'package:lotech/utils/constant.dart';
+import 'package:handyman_provider_flutter/components/app_widgets.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/provider/timeSlots/components/available_slots_component.dart';
+import 'package:handyman_provider_flutter/provider/timeSlots/components/days_bottom_sheet.dart';
+import 'package:handyman_provider_flutter/provider/timeSlots/models/slot_data.dart';
+import 'package:handyman_provider_flutter/utils/colors.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
+import 'package:handyman_provider_flutter/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class EditTimeSlotScreen extends StatefulWidget {

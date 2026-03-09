@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/provider/withdraw/withdraw_request/withdraw_request.dart';
-import 'package:lotech/utils/configs.dart';
-import 'package:lotech/utils/images.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/provider/withdraw/withdraw_request/withdraw_request.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
+import 'package:handyman_provider_flutter/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../components/cached_image_widget.dart';

@@ -4,7 +4,7 @@ import 'dart:ui' as ui;
 import 'package:flutter/cupertino.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart' as gmaps;
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:lotech/components/base_scaffold_widget.dart';
+import 'package:handyman_provider_flutter/components/base_scaffold_widget.dart';
 import 'package:lottie/lottie.dart' as lottie;
 import 'package:lottie/lottie.dart';
 import 'package:nb_utils/nb_utils.dart';

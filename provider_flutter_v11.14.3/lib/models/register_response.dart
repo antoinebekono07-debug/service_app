@@ -1,4 +1,4 @@
-import 'package:lotech/models/user_data.dart';
+import 'package:handyman_provider_flutter/models/user_data.dart';
 
 class RegisterResponse {
   UserData? data;

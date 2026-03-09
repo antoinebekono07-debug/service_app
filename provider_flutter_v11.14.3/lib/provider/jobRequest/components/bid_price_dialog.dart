@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:lotech/components/app_widgets.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/networks/rest_apis.dart';
-import 'package:lotech/utils/common.dart';
-import 'package:lotech/utils/extensions/context_ext.dart';
-import 'package:lotech/utils/model_keys.dart';
+import 'package:handyman_provider_flutter/components/app_widgets.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/networks/rest_apis.dart';
+import 'package:handyman_provider_flutter/utils/common.dart';
+import 'package:handyman_provider_flutter/utils/extensions/context_ext.dart';
+import 'package:handyman_provider_flutter/utils/model_keys.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../models/post_job_data.dart';

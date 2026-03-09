@@ -1,5 +1,5 @@
-import 'package:lotech/models/booking_detail_response.dart';
-import 'package:lotech/models/service_model.dart';
+import 'package:handyman_provider_flutter/models/booking_detail_response.dart';
+import 'package:handyman_provider_flutter/models/service_model.dart';
 
 class ServiceDetailResponse {
   Provider? provider;

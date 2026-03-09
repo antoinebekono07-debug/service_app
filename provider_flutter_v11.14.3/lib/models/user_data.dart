@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:lotech/models/provider_subscription_model.dart';
+import 'package:handyman_provider_flutter/models/provider_subscription_model.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class UserData {

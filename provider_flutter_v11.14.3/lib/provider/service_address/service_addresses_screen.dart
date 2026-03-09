@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:lotech/components/back_widget.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/models/service_address_response.dart';
-import 'package:lotech/networks/rest_apis.dart';
-import 'package:lotech/provider/service_address/components/add_service_component.dart';
-import 'package:lotech/provider/service_address/shimmer/service_address_shimmer.dart';
-import 'package:lotech/utils/common.dart';
-import 'package:lotech/utils/configs.dart';
-import 'package:lotech/utils/images.dart';
-import 'package:lotech/utils/model_keys.dart';
+import 'package:handyman_provider_flutter/components/back_widget.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/service_address_response.dart';
+import 'package:handyman_provider_flutter/networks/rest_apis.dart';
+import 'package:handyman_provider_flutter/provider/service_address/components/add_service_component.dart';
+import 'package:handyman_provider_flutter/provider/service_address/shimmer/service_address_shimmer.dart';
+import 'package:handyman_provider_flutter/utils/common.dart';
+import 'package:handyman_provider_flutter/utils/configs.dart';
+import 'package:handyman_provider_flutter/utils/images.dart';
+import 'package:handyman_provider_flutter/utils/model_keys.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../components/app_widgets.dart';

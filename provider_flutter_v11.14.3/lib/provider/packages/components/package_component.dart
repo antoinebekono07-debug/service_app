@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/components/cached_image_widget.dart';
-import 'package:lotech/components/price_widget.dart';
-import 'package:lotech/components/view_all_label_component.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/models/package_response.dart';
-import 'package:lotech/utils/extensions/string_extension.dart';
+import 'package:handyman_provider_flutter/components/cached_image_widget.dart';
+import 'package:handyman_provider_flutter/components/price_widget.dart';
+import 'package:handyman_provider_flutter/components/view_all_label_component.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/package_response.dart';
+import 'package:handyman_provider_flutter/utils/extensions/string_extension.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../utils/images.dart';

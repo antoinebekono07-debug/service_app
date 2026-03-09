@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/screens/cash_management/cash_constant.dart';
-import 'package:lotech/utils/common.dart';
-import 'package:lotech/utils/extensions/color_extension.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/screens/cash_management/cash_constant.dart';
+import 'package:handyman_provider_flutter/utils/common.dart';
+import 'package:handyman_provider_flutter/utils/extensions/color_extension.dart';
 
 class CashFilterModel {
   String? name;

@@ -1,7 +1,7 @@
-import 'package:lotech/main.dart';
-import 'package:lotech/models/booking_detail_response.dart';
-import 'package:lotech/models/booking_list_response.dart';
-import 'package:lotech/models/revenue_chart_data.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/booking_detail_response.dart';
+import 'package:handyman_provider_flutter/models/booking_list_response.dart';
+import 'package:handyman_provider_flutter/models/revenue_chart_data.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../utils/constant.dart';

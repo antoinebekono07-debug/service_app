@@ -1,6 +1,6 @@
-import 'package:lotech/main.dart';
-import 'package:lotech/networks/rest_apis.dart';
-import 'package:lotech/provider/timeSlots/models/slot_data.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/networks/rest_apis.dart';
+import 'package:handyman_provider_flutter/provider/timeSlots/models/slot_data.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 Future<List<SlotData>> getProviderTimeSlots() async {

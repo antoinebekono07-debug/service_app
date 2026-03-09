@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/components/notification_widget.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/models/notification_list_response.dart';
-import 'package:lotech/networks/rest_apis.dart';
-import 'package:lotech/provider/services/service_detail_screen.dart';
-import 'package:lotech/provider/wallet/wallet_history_screen.dart';
-import 'package:lotech/screens/booking_detail_screen.dart';
-import 'package:lotech/utils/common.dart';
-import 'package:lotech/utils/constant.dart';
-import 'package:lotech/utils/model_keys.dart';
+import 'package:handyman_provider_flutter/components/notification_widget.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/models/notification_list_response.dart';
+import 'package:handyman_provider_flutter/networks/rest_apis.dart';
+import 'package:handyman_provider_flutter/provider/services/service_detail_screen.dart';
+import 'package:handyman_provider_flutter/provider/wallet/wallet_history_screen.dart';
+import 'package:handyman_provider_flutter/screens/booking_detail_screen.dart';
+import 'package:handyman_provider_flutter/utils/common.dart';
+import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:handyman_provider_flutter/utils/model_keys.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../components/app_widgets.dart';

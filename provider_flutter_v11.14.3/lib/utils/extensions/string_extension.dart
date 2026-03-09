@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lotech/components/app_widgets.dart';
-import 'package:lotech/main.dart';
-import 'package:lotech/utils/colors.dart';
+import 'package:handyman_provider_flutter/components/app_widgets.dart';
+import 'package:handyman_provider_flutter/main.dart';
+import 'package:handyman_provider_flutter/utils/colors.dart';
 import 'package:path/path.dart' as path;
 import '../app_configuration.dart';
 import '../constant.dart';
