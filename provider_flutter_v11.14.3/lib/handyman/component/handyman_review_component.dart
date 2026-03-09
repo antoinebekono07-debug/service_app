@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/components/app_widgets.dart';
-import 'package:handyman_provider_flutter/components/review_list_view_component.dart';
-import 'package:handyman_provider_flutter/components/view_all_label_component.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/booking_detail_response.dart';
-import 'package:handyman_provider_flutter/screens/rating_view_all_screen.dart';
+import 'package:lotech/components/app_widgets.dart';
+import 'package:lotech/components/review_list_view_component.dart';
+import 'package:lotech/components/view_all_label_component.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/booking_detail_response.dart';
+import 'package:lotech/screens/rating_view_all_screen.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class HandymanReviewComponent extends StatefulWidget {

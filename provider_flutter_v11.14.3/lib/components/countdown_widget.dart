@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/booking_detail_response.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
-import 'package:handyman_provider_flutter/utils/model_keys.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/booking_detail_response.dart';
+import 'package:lotech/utils/constant.dart';
+import 'package:lotech/utils/model_keys.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class CountdownWidget extends StatefulWidget {

@@ -2,16 +2,16 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/components/base_scaffold_widget.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/networks/rest_apis.dart';
-import 'package:handyman_provider_flutter/provider/bank_details/add_bank_screen.dart';
-import 'package:handyman_provider_flutter/utils/common.dart';
-import 'package:handyman_provider_flutter/utils/configs.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
-import 'package:handyman_provider_flutter/utils/extensions/num_extenstions.dart';
-import 'package:handyman_provider_flutter/utils/extensions/string_extension.dart';
-import 'package:handyman_provider_flutter/utils/images.dart';
+import 'package:lotech/components/base_scaffold_widget.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/networks/rest_apis.dart';
+import 'package:lotech/provider/bank_details/add_bank_screen.dart';
+import 'package:lotech/utils/common.dart';
+import 'package:lotech/utils/configs.dart';
+import 'package:lotech/utils/constant.dart';
+import 'package:lotech/utils/extensions/num_extenstions.dart';
+import 'package:lotech/utils/extensions/string_extension.dart';
+import 'package:lotech/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 import '../../../components/app_widgets.dart';
 import '../../../components/price_widget.dart';

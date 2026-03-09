@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/empty_error_state_widget.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/screens/cash_management/cash_repository.dart';
-import 'package:handyman_provider_flutter/screens/cash_management/component/payment_history_list_widget.dart';
-import 'package:handyman_provider_flutter/screens/cash_management/model/payment_history_model.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:lotech/components/empty_error_state_widget.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/screens/cash_management/cash_repository.dart';
+import 'package:lotech/screens/cash_management/component/payment_history_list_widget.dart';
+import 'package:lotech/screens/cash_management/model/payment_history_model.dart';
+import 'package:lotech/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class CashPaymentHistoryScreen extends StatefulWidget {

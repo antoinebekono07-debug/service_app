@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/components/cached_image_widget.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/service_model.dart';
-import 'package:handyman_provider_flutter/utils/extensions/context_ext.dart';
+import 'package:lotech/components/cached_image_widget.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/service_model.dart';
+import 'package:lotech/utils/extensions/context_ext.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class SelectedServiceComponent extends StatefulWidget {

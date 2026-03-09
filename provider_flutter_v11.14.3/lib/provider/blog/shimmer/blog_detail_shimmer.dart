@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/back_widget.dart';
-import 'package:handyman_provider_flutter/components/shimmer_widget.dart';
+import 'package:lotech/components/back_widget.dart';
+import 'package:lotech/components/shimmer_widget.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class BlogDetailShimmer extends StatelessWidget {

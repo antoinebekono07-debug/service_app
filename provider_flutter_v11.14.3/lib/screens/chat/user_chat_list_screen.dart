@@ -2,11 +2,11 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_pagination/firebase_pagination.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/components/app_widgets.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/user_data.dart';
-import 'package:handyman_provider_flutter/screens/chat/components/user_item_widget.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:lotech/components/app_widgets.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/user_data.dart';
+import 'package:lotech/screens/chat/components/user_item_widget.dart';
+import 'package:lotech/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../auth/sign_in_screen.dart';

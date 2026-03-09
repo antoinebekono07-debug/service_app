@@ -1,10 +1,10 @@
 import 'dart:convert';
-import 'package:handyman_provider_flutter/models/attachment_model.dart';
-import 'package:handyman_provider_flutter/models/booking_detail_response.dart';
-import 'package:handyman_provider_flutter/models/package_response.dart';
-import 'package:handyman_provider_flutter/models/service_detail_response.dart';
-import 'package:handyman_provider_flutter/provider/timeSlots/models/slot_data.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:lotech/models/attachment_model.dart';
+import 'package:lotech/models/booking_detail_response.dart';
+import 'package:lotech/models/package_response.dart';
+import 'package:lotech/models/service_detail_response.dart';
+import 'package:lotech/provider/timeSlots/models/slot_data.dart';
+import 'package:lotech/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 import '../utils/model_keys.dart';
 import 'multi_language_request_model.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/cached_image_widget.dart';
-import 'package:handyman_provider_flutter/screens/zoom_image_screen.dart';
+import 'package:lotech/components/cached_image_widget.dart';
+import 'package:lotech/screens/zoom_image_screen.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class ImageBorder extends StatelessWidget {

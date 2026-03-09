@@ -1,4 +1,4 @@
-import 'package:handyman_provider_flutter/locale/base_language.dart';
+import 'package:lotech/locale/base_language.dart';
 
 // class LanguageHi extends
 class LanguageHi extends Languages {

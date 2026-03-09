@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:handyman_provider_flutter/provider/blog/blog_repository.dart';
-import 'package:handyman_provider_flutter/provider/blog/component/blog_detail_header_component.dart';
-import 'package:handyman_provider_flutter/provider/blog/model/blog_detail_response.dart';
-import 'package:handyman_provider_flutter/utils/extensions/string_extension.dart';
-import 'package:handyman_provider_flutter/utils/model_keys.dart';
+import 'package:lotech/provider/blog/blog_repository.dart';
+import 'package:lotech/provider/blog/component/blog_detail_header_component.dart';
+import 'package:lotech/provider/blog/model/blog_detail_response.dart';
+import 'package:lotech/utils/extensions/string_extension.dart';
+import 'package:lotech/utils/model_keys.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../components/back_widget.dart';

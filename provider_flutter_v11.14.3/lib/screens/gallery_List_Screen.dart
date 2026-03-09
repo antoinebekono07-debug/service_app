@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/back_widget.dart';
-import 'package:handyman_provider_flutter/components/gallery_component.dart';
-import 'package:handyman_provider_flutter/main.dart';
+import 'package:lotech/components/back_widget.dart';
+import 'package:lotech/components/gallery_component.dart';
+import 'package:lotech/main.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class GalleryListScreen extends StatelessWidget {

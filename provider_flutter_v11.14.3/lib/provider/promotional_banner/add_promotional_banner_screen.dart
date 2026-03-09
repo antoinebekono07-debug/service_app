@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/components/base_scaffold_widget.dart';
-import 'package:handyman_provider_flutter/provider/promotional_banner/promotional_banner_repository.dart';
-import 'package:handyman_provider_flutter/utils/extensions/num_extenstions.dart';
-import 'package:handyman_provider_flutter/utils/images.dart';
+import 'package:lotech/components/base_scaffold_widget.dart';
+import 'package:lotech/provider/promotional_banner/promotional_banner_repository.dart';
+import 'package:lotech/utils/extensions/num_extenstions.dart';
+import 'package:lotech/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../components/app_common_dialog.dart';

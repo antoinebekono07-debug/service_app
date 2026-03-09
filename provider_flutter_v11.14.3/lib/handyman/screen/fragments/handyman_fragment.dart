@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/handyman/component/handyman_review_component.dart';
-import 'package:handyman_provider_flutter/handyman/component/handyman_total_component.dart';
-import 'package:handyman_provider_flutter/handyman/shimmer/handyman_dashboard_shimmer.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/handyman_dashboard_response.dart';
-import 'package:handyman_provider_flutter/networks/rest_apis.dart';
-import 'package:handyman_provider_flutter/provider/components/chart_component.dart';
-import 'package:handyman_provider_flutter/screens/cash_management/component/today_cash_component.dart';
+import 'package:lotech/handyman/component/handyman_review_component.dart';
+import 'package:lotech/handyman/component/handyman_total_component.dart';
+import 'package:lotech/handyman/shimmer/handyman_dashboard_shimmer.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/handyman_dashboard_response.dart';
+import 'package:lotech/networks/rest_apis.dart';
+import 'package:lotech/provider/components/chart_component.dart';
+import 'package:lotech/screens/cash_management/component/today_cash_component.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../components/app_widgets.dart';
