@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/component/price_widget.dart';
+import 'package:soperiem/component/price_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

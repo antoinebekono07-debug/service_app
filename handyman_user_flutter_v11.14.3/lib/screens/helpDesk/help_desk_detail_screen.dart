@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:booking_system_flutter/component/base_scaffold_widget.dart';
-import 'package:booking_system_flutter/component/loader_widget.dart';
+import 'package:soperiem/component/base_scaffold_widget.dart';
+import 'package:soperiem/component/loader_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';

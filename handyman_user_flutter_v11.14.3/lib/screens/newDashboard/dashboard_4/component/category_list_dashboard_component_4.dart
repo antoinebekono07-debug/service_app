@@ -1,5 +1,5 @@
-import 'package:booking_system_flutter/model/category_model.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_4/component/category_dashboard_component_4.dart';
+import 'package:soperiem/model/category_model.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_4/component/category_dashboard_component_4.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

@@ -1,7 +1,7 @@
-import 'package:booking_system_flutter/component/base_scaffold_widget.dart';
-import 'package:booking_system_flutter/screens/service/shimmer/view_all_service_shimmer.dart';
-import 'package:booking_system_flutter/store/filter_store.dart';
-import 'package:booking_system_flutter/utils/string_extensions.dart';
+import 'package:soperiem/component/base_scaffold_widget.dart';
+import 'package:soperiem/screens/service/shimmer/view_all_service_shimmer.dart';
+import 'package:soperiem/store/filter_store.dart';
+import 'package:soperiem/utils/string_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_svg/svg.dart';

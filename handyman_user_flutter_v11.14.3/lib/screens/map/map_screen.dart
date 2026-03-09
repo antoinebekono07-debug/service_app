@@ -1,9 +1,9 @@
-import 'package:booking_system_flutter/component/back_widget.dart';
-import 'package:booking_system_flutter/component/loader_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/services/location_service.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/common.dart';
+import 'package:soperiem/component/back_widget.dart';
+import 'package:soperiem/component/loader_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/services/location_service.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:geolocator/geolocator.dart';

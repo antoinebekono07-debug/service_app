@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/base_response.dart';
-import 'package:handyman_provider_flutter/models/user_bank_model.dart';
-import 'package:handyman_provider_flutter/networks/network_utils.dart';
-import 'package:handyman_provider_flutter/screens/cash_management/model/cash_detail_model.dart';
-import 'package:handyman_provider_flutter/screens/cash_management/model/payment_history_model.dart';
-import 'package:handyman_provider_flutter/utils/common.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/base_response.dart';
+import 'package:lotech/models/user_bank_model.dart';
+import 'package:lotech/networks/network_utils.dart';
+import 'package:lotech/screens/cash_management/model/cash_detail_model.dart';
+import 'package:lotech/screens/cash_management/model/payment_history_model.dart';
+import 'package:lotech/utils/common.dart';
+import 'package:lotech/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 Future<List<PaymentHistoryData>> getPaymentHistory({required String bookingId}) async {

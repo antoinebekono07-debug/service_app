@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/component/cached_image_widget.dart';
+import 'package:soperiem/component/cached_image_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:nb_utils/nb_utils.dart';

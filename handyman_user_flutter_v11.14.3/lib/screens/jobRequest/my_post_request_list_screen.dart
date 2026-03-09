@@ -1,10 +1,10 @@
-import 'package:booking_system_flutter/component/loader_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/get_my_post_job_list_response.dart';
-import 'package:booking_system_flutter/network/rest_apis.dart';
-import 'package:booking_system_flutter/screens/jobRequest/components/my_post_request_item_component.dart';
-import 'package:booking_system_flutter/screens/jobRequest/create_post_request_screen.dart';
-import 'package:booking_system_flutter/screens/jobRequest/shimmer/my_post_job_shimmer.dart';
+import 'package:soperiem/component/loader_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/get_my_post_job_list_response.dart';
+import 'package:soperiem/network/rest_apis.dart';
+import 'package:soperiem/screens/jobRequest/components/my_post_request_item_component.dart';
+import 'package:soperiem/screens/jobRequest/create_post_request_screen.dart';
+import 'package:soperiem/screens/jobRequest/shimmer/my_post_job_shimmer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:geolocator/geolocator.dart';

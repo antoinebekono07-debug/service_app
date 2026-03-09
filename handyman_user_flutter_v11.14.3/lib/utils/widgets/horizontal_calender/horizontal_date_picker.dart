@@ -1,6 +1,6 @@
 library horizontal_center_date_picker;
 
-import 'package:booking_system_flutter/main.dart';
+import 'package:soperiem/main.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';

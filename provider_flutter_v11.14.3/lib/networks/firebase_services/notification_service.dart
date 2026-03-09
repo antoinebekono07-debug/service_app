@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:handyman_provider_flutter/models/firebase_details_model.dart';
-import 'package:handyman_provider_flutter/networks/network_utils.dart';
+import 'package:lotech/models/firebase_details_model.dart';
+import 'package:lotech/networks/network_utils.dart';
 import 'package:http/http.dart';
 import 'package:nb_utils/nb_utils.dart';
 

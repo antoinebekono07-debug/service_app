@@ -1,5 +1,5 @@
-import 'package:handyman_provider_flutter/models/attachment_model.dart';
-import 'package:handyman_provider_flutter/models/pagination_model.dart';
+import 'package:lotech/models/attachment_model.dart';
+import 'package:lotech/models/pagination_model.dart';
 
 class BlogResponse {
   Pagination? pagination;

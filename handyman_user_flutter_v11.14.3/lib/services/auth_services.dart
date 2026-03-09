@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/user_data_model.dart';
-import 'package:booking_system_flutter/network/rest_apis.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/user_data_model.dart';
+import 'package:soperiem/network/rest_apis.dart';
+import 'package:soperiem/utils/constant.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';

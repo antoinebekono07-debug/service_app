@@ -1,11 +1,11 @@
-import 'package:booking_system_flutter/component/cached_image_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/get_my_post_job_list_response.dart';
-import 'package:booking_system_flutter/model/post_job_detail_response.dart';
-import 'package:booking_system_flutter/network/rest_apis.dart';
-import 'package:booking_system_flutter/screens/jobRequest/book_post_job_request_screen.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/model_keys.dart';
+import 'package:soperiem/component/cached_image_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/get_my_post_job_list_response.dart';
+import 'package:soperiem/model/post_job_detail_response.dart';
+import 'package:soperiem/network/rest_apis.dart';
+import 'package:soperiem/screens/jobRequest/book_post_job_request_screen.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/model_keys.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

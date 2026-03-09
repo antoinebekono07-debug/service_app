@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-import 'package:booking_system_flutter/component/back_widget.dart';
-import 'package:booking_system_flutter/component/loader_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/network/network_utils.dart';
-import 'package:booking_system_flutter/utils/common.dart';
-import 'package:booking_system_flutter/utils/configs.dart';
+import 'package:soperiem/component/back_widget.dart';
+import 'package:soperiem/component/loader_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/network/network_utils.dart';
+import 'package:soperiem/utils/common.dart';
+import 'package:soperiem/utils/configs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:http/http.dart';

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/back_widget.dart';
-import 'package:handyman_provider_flutter/components/review_list_view_component.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/booking_detail_response.dart';
-import 'package:handyman_provider_flutter/networks/rest_apis.dart';
-import 'package:handyman_provider_flutter/screens/shimmer/review_shimmer.dart';
-import 'package:handyman_provider_flutter/utils/model_keys.dart';
+import 'package:lotech/components/back_widget.dart';
+import 'package:lotech/components/review_list_view_component.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/booking_detail_response.dart';
+import 'package:lotech/networks/rest_apis.dart';
+import 'package:lotech/screens/shimmer/review_shimmer.dart';
+import 'package:lotech/utils/model_keys.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../components/empty_error_state_widget.dart';

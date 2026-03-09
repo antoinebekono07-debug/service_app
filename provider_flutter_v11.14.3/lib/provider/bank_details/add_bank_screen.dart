@@ -1,14 +1,14 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/base_scaffold_widget.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/networks/network_utils.dart';
-import 'package:handyman_provider_flutter/utils/common.dart';
-import 'package:handyman_provider_flutter/utils/configs.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
-import 'package:handyman_provider_flutter/utils/extensions/string_extension.dart';
-import 'package:handyman_provider_flutter/utils/images.dart';
+import 'package:lotech/components/base_scaffold_widget.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/networks/network_utils.dart';
+import 'package:lotech/utils/common.dart';
+import 'package:lotech/utils/configs.dart';
+import 'package:lotech/utils/constant.dart';
+import 'package:lotech/utils/extensions/string_extension.dart';
+import 'package:lotech/utils/images.dart';
 import 'package:http/http.dart';
 import 'package:nb_utils/nb_utils.dart';
 

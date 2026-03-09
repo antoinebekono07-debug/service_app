@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/utils/configs.dart';
-import 'package:handyman_provider_flutter/utils/extensions/num_extenstions.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/utils/configs.dart';
+import 'package:lotech/utils/extensions/num_extenstions.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class PriceWidget extends StatelessWidget {

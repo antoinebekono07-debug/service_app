@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 
-import 'package:booking_system_flutter/model/payment_gateway_response.dart';
+import 'package:soperiem/model/payment_gateway_response.dart';
 import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

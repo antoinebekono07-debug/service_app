@@ -1,6 +1,6 @@
-import 'package:booking_system_flutter/component/image_border_component.dart';
-import 'package:booking_system_flutter/model/notification_model.dart';
-import 'package:booking_system_flutter/utils/images.dart';
+import 'package:soperiem/component/image_border_component.dart';
+import 'package:soperiem/model/notification_model.dart';
+import 'package:soperiem/utils/images.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

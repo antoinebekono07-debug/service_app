@@ -1,13 +1,13 @@
 import 'dart:async';
 
-import 'package:booking_system_flutter/screens/dashboard/component/promotional_banner_slider_component.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_3/component/appbar_dashboard_component_3.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_3/component/category_list_dashboard_component_3.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_3/component/job_request_dahboard_component_3.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_3/component/service_list_dashboard_component_3.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_3/component/slider_dashboard_component_3.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_3/shimmer/dashboard_shimmer_3.dart';
-import 'package:booking_system_flutter/utils/string_extensions.dart';
+import 'package:soperiem/screens/dashboard/component/promotional_banner_slider_component.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_3/component/appbar_dashboard_component_3.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_3/component/category_list_dashboard_component_3.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_3/component/job_request_dahboard_component_3.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_3/component/service_list_dashboard_component_3.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_3/component/slider_dashboard_component_3.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_3/shimmer/dashboard_shimmer_3.dart';
+import 'package:soperiem/utils/string_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';

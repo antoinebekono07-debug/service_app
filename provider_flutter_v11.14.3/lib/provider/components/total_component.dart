@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/dashboard_response.dart';
-import 'package:handyman_provider_flutter/provider/components/total_widget.dart';
-import 'package:handyman_provider_flutter/provider/services/service_list_screen.dart';
-import 'package:handyman_provider_flutter/screens/total_earning_screen.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
-import 'package:handyman_provider_flutter/utils/extensions/num_extenstions.dart';
-import 'package:handyman_provider_flutter/utils/images.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/dashboard_response.dart';
+import 'package:lotech/provider/components/total_widget.dart';
+import 'package:lotech/provider/services/service_list_screen.dart';
+import 'package:lotech/screens/total_earning_screen.dart';
+import 'package:lotech/utils/constant.dart';
+import 'package:lotech/utils/extensions/num_extenstions.dart';
+import 'package:lotech/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class TotalComponent extends StatelessWidget {

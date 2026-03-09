@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/auth/sign_in_screen.dart';
-import 'package:handyman_provider_flutter/handyman/handyman_dashboard_screen.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/provider/provider_dashboard_screen.dart';
-import 'package:handyman_provider_flutter/screens/maintenance_mode_screen.dart';
-import 'package:handyman_provider_flutter/utils/common.dart';
-import 'package:handyman_provider_flutter/utils/configs.dart';
-import 'package:handyman_provider_flutter/utils/images.dart';
+import 'package:lotech/auth/sign_in_screen.dart';
+import 'package:lotech/handyman/handyman_dashboard_screen.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/provider/provider_dashboard_screen.dart';
+import 'package:lotech/screens/maintenance_mode_screen.dart';
+import 'package:lotech/utils/common.dart';
+import 'package:lotech/utils/configs.dart';
+import 'package:lotech/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../components/app_widgets.dart';

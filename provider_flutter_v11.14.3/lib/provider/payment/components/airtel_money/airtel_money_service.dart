@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/main.dart';
+import 'package:lotech/main.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 import 'package:nb_utils/nb_utils.dart';

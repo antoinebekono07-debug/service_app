@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/components/base_scaffold_widget.dart';
-import 'package:handyman_provider_flutter/provider/services/addons/shimmer/addon_service_list_shimmer.dart';
+import 'package:lotech/components/base_scaffold_widget.dart';
+import 'package:lotech/provider/services/addons/shimmer/addon_service_list_shimmer.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../components/app_widgets.dart';

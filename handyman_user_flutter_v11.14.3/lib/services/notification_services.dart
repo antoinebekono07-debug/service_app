@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/firebase_details_model.dart';
-import 'package:booking_system_flutter/network/network_utils.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/firebase_details_model.dart';
+import 'package:soperiem/network/network_utils.dart';
 import 'package:http/http.dart';
 import 'package:nb_utils/nb_utils.dart';
 

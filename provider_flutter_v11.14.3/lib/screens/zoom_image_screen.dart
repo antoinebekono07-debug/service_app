@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/app_widgets.dart';
-import 'package:handyman_provider_flutter/components/back_widget.dart';
-import 'package:handyman_provider_flutter/main.dart';
+import 'package:lotech/components/app_widgets.dart';
+import 'package:lotech/components/back_widget.dart';
+import 'package:lotech/main.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:photo_view/photo_view_gallery.dart';

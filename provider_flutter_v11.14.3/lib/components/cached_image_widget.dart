@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/app_widgets.dart';
+import 'package:lotech/components/app_widgets.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class CachedImageWidget extends StatelessWidget {

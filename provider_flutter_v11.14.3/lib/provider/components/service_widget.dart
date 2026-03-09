@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/cached_image_widget.dart';
-import 'package:handyman_provider_flutter/components/disabled_rating_bar_widget.dart';
-import 'package:handyman_provider_flutter/components/price_widget.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/service_model.dart';
-import 'package:handyman_provider_flutter/utils/colors.dart';
-import 'package:handyman_provider_flutter/utils/common.dart';
-import 'package:handyman_provider_flutter/utils/configs.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
-import 'package:handyman_provider_flutter/utils/extensions/color_extension.dart';
-import 'package:handyman_provider_flutter/utils/extensions/string_extension.dart';
+import 'package:lotech/components/cached_image_widget.dart';
+import 'package:lotech/components/disabled_rating_bar_widget.dart';
+import 'package:lotech/components/price_widget.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/service_model.dart';
+import 'package:lotech/utils/colors.dart';
+import 'package:lotech/utils/common.dart';
+import 'package:lotech/utils/configs.dart';
+import 'package:lotech/utils/constant.dart';
+import 'package:lotech/utils/extensions/color_extension.dart';
+import 'package:lotech/utils/extensions/string_extension.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../networks/rest_apis.dart';

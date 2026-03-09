@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/utils/extensions/num_extenstions.dart';
+import 'package:lotech/utils/extensions/num_extenstions.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../main.dart';

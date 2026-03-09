@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/shimmer_widget.dart';
-import 'package:handyman_provider_flutter/utils/common.dart';
-import 'package:handyman_provider_flutter/utils/images.dart';
+import 'package:lotech/components/shimmer_widget.dart';
+import 'package:lotech/utils/common.dart';
+import 'package:lotech/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class HandymanDashboardShimmer extends StatelessWidget {

@@ -1,6 +1,6 @@
-import 'package:booking_system_flutter/component/disabled_rating_bar_widget.dart';
-import 'package:booking_system_flutter/component/selected_item_widget.dart';
-import 'package:booking_system_flutter/main.dart';
+import 'package:soperiem/component/disabled_rating_bar_widget.dart';
+import 'package:soperiem/component/selected_item_widget.dart';
+import 'package:soperiem/main.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

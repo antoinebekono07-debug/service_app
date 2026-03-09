@@ -1,6 +1,6 @@
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/screens/dashboard/component/promotional_banner_slider_component.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_1/shimmer/dashboard_shimmer_1.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/screens/dashboard/component/promotional_banner_slider_component.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_1/shimmer/dashboard_shimmer_1.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';

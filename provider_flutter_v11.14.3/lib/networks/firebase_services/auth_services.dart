@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:lotech/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../main.dart';

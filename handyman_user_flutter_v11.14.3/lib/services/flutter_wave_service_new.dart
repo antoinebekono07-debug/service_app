@@ -1,7 +1,7 @@
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/network/rest_apis.dart';
-import 'package:booking_system_flutter/utils/configs.dart';
-import 'package:booking_system_flutter/utils/images.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/network/rest_apis.dart';
+import 'package:soperiem/utils/configs.dart';
+import 'package:soperiem/utils/images.dart';
 import 'package:flutterwave_standard/flutterwave.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:uuid/uuid.dart';

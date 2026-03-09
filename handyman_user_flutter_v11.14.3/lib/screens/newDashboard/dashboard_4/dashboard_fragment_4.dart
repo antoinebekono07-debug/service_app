@@ -1,8 +1,8 @@
-import 'package:booking_system_flutter/screens/dashboard/component/promotional_banner_slider_component.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_4/component/app_bar_dashboard_component_4.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_4/component/service_list_dashboard_component_4.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_4/component/upcoming_booking_dashboard_component_4.dart';
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_4/shimmer/dashboard_shimmer_4.dart';
+import 'package:soperiem/screens/dashboard/component/promotional_banner_slider_component.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_4/component/app_bar_dashboard_component_4.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_4/component/service_list_dashboard_component_4.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_4/component/upcoming_booking_dashboard_component_4.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_4/shimmer/dashboard_shimmer_4.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';

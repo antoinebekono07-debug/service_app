@@ -1,14 +1,14 @@
-import 'package:booking_system_flutter/component/base_scaffold_widget.dart';
-import 'package:booking_system_flutter/component/loader_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/notification_model.dart';
-import 'package:booking_system_flutter/network/rest_apis.dart';
-import 'package:booking_system_flutter/screens/booking/booking_detail_screen.dart';
-import 'package:booking_system_flutter/screens/jobRequest/my_post_detail_screen.dart';
-import 'package:booking_system_flutter/screens/notification/components/notification_widget.dart';
-import 'package:booking_system_flutter/screens/wallet/user_wallet_balance_screen.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/model_keys.dart';
+import 'package:soperiem/component/base_scaffold_widget.dart';
+import 'package:soperiem/component/loader_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/notification_model.dart';
+import 'package:soperiem/network/rest_apis.dart';
+import 'package:soperiem/screens/booking/booking_detail_screen.dart';
+import 'package:soperiem/screens/jobRequest/my_post_detail_screen.dart';
+import 'package:soperiem/screens/notification/components/notification_widget.dart';
+import 'package:soperiem/screens/wallet/user_wallet_balance_screen.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/model_keys.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

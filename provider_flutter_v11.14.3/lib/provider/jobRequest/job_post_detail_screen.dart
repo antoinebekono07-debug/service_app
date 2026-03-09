@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/components/app_widgets.dart';
-import 'package:handyman_provider_flutter/components/cached_image_widget.dart';
-import 'package:handyman_provider_flutter/components/price_widget.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/service_model.dart';
-import 'package:handyman_provider_flutter/models/user_data.dart';
-import 'package:handyman_provider_flutter/networks/rest_apis.dart';
-import 'package:handyman_provider_flutter/provider/jobRequest/components/bid_price_dialog.dart';
-import 'package:handyman_provider_flutter/provider/jobRequest/models/post_job_detail_response.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
-import 'package:handyman_provider_flutter/utils/model_keys.dart';
+import 'package:lotech/components/app_widgets.dart';
+import 'package:lotech/components/cached_image_widget.dart';
+import 'package:lotech/components/price_widget.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/service_model.dart';
+import 'package:lotech/models/user_data.dart';
+import 'package:lotech/networks/rest_apis.dart';
+import 'package:lotech/provider/jobRequest/components/bid_price_dialog.dart';
+import 'package:lotech/provider/jobRequest/models/post_job_detail_response.dart';
+import 'package:lotech/utils/constant.dart';
+import 'package:lotech/utils/model_keys.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../components/base_scaffold_widget.dart';

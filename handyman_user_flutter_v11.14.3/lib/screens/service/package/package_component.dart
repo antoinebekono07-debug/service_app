@@ -1,8 +1,8 @@
-import 'package:booking_system_flutter/component/price_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/package_data_model.dart';
-import 'package:booking_system_flutter/screens/service/package/package_detail_screen.dart';
-import 'package:booking_system_flutter/utils/common.dart';
+import 'package:soperiem/component/price_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/package_data_model.dart';
+import 'package:soperiem/screens/service/package/package_detail_screen.dart';
+import 'package:soperiem/utils/common.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';

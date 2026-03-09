@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/screens/newDashboard/dashboard_4/component/service_dashboard_component_4.dart';
+import 'package:soperiem/screens/newDashboard/dashboard_4/component/service_dashboard_component_4.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

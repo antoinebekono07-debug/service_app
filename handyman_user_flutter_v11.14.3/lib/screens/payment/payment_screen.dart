@@ -1,10 +1,10 @@
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/booking_detail_model.dart';
-import 'package:booking_system_flutter/screens/booking/component/price_common_widget.dart';
-import 'package:booking_system_flutter/screens/wallet/user_wallet_balance_screen.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/extensions/num_extenstions.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/booking_detail_model.dart';
+import 'package:soperiem/screens/booking/component/price_common_widget.dart';
+import 'package:soperiem/screens/wallet/user_wallet_balance_screen.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/extensions/num_extenstions.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';

@@ -1,10 +1,10 @@
-import 'package:booking_system_flutter/component/back_widget.dart';
-import 'package:booking_system_flutter/component/loader_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/service_data_model.dart';
-import 'package:booking_system_flutter/network/rest_apis.dart';
-import 'package:booking_system_flutter/screens/service/component/service_component.dart';
-import 'package:booking_system_flutter/screens/service/shimmer/favourite_service_shimmer.dart';
+import 'package:soperiem/component/back_widget.dart';
+import 'package:soperiem/component/loader_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/service_data_model.dart';
+import 'package:soperiem/network/rest_apis.dart';
+import 'package:soperiem/screens/service/component/service_component.dart';
+import 'package:soperiem/screens/service/shimmer/favourite_service_shimmer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';

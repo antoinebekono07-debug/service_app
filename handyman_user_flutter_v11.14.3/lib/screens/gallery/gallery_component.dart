@@ -1,5 +1,5 @@
-import 'package:booking_system_flutter/component/cached_image_widget.dart';
-import 'package:booking_system_flutter/screens/zoom_image_screen.dart';
+import 'package:soperiem/component/cached_image_widget.dart';
+import 'package:soperiem/screens/zoom_image_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

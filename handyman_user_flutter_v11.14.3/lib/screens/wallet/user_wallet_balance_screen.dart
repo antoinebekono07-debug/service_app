@@ -1,8 +1,8 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:booking_system_flutter/component/price_widget.dart';
-import 'package:booking_system_flutter/services/flutter_wave_service_new.dart';
-import 'package:booking_system_flutter/utils/extensions/num_extenstions.dart';
+import 'package:soperiem/component/price_widget.dart';
+import 'package:soperiem/services/flutter_wave_service_new.dart';
+import 'package:soperiem/utils/extensions/num_extenstions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/screens/cash_management/model/payment_history_model.dart';
-import 'package:handyman_provider_flutter/utils/common.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:lotech/screens/cash_management/model/payment_history_model.dart';
+import 'package:lotech/utils/common.dart';
+import 'package:lotech/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class PaymentHistoryListWidget extends StatelessWidget {

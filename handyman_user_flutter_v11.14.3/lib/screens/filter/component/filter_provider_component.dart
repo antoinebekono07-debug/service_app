@@ -1,10 +1,10 @@
-import 'package:booking_system_flutter/component/image_border_component.dart';
-import 'package:booking_system_flutter/component/selected_item_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/user_data_model.dart';
-import 'package:booking_system_flutter/utils/common.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/images.dart';
+import 'package:soperiem/component/image_border_component.dart';
+import 'package:soperiem/component/selected_item_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/user_data_model.dart';
+import 'package:soperiem/utils/common.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/images.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';

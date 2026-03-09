@@ -1,5 +1,5 @@
-import 'package:handyman_provider_flutter/models/booking_detail_response.dart';
-import 'package:handyman_provider_flutter/models/pagination_model.dart';
+import 'package:lotech/models/booking_detail_response.dart';
+import 'package:lotech/models/pagination_model.dart';
 
 class AddonsServiceResponse {
   List<ServiceAddon>? addonsServiceList;

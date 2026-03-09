@@ -1,7 +1,7 @@
-import 'package:booking_system_flutter/component/cached_image_widget.dart';
-import 'package:booking_system_flutter/component/online_service_icon_widget.dart';
-import 'package:booking_system_flutter/utils/common.dart';
-import 'package:booking_system_flutter/utils/string_extensions.dart';
+import 'package:soperiem/component/cached_image_widget.dart';
+import 'package:soperiem/component/online_service_icon_widget.dart';
+import 'package:soperiem/utils/common.dart';
+import 'package:soperiem/utils/string_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/price_widget.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/total_earning_response.dart';
-import 'package:handyman_provider_flutter/utils/common.dart';
-import 'package:handyman_provider_flutter/utils/configs.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:lotech/components/price_widget.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/total_earning_response.dart';
+import 'package:lotech/utils/common.dart';
+import 'package:lotech/utils/configs.dart';
+import 'package:lotech/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class TotalEarningWidget extends StatelessWidget {

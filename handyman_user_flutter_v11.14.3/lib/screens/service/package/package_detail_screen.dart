@@ -1,10 +1,10 @@
-import 'package:booking_system_flutter/component/cached_image_widget.dart';
-import 'package:booking_system_flutter/component/price_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/package_data_model.dart';
-import 'package:booking_system_flutter/model/service_data_model.dart';
-import 'package:booking_system_flutter/screens/service/service_detail_screen.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
+import 'package:soperiem/component/cached_image_widget.dart';
+import 'package:soperiem/component/price_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/package_data_model.dart';
+import 'package:soperiem/model/service_data_model.dart';
+import 'package:soperiem/screens/service/service_detail_screen.dart';
+import 'package:soperiem/utils/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

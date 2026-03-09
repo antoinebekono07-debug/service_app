@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/main.dart';
+import 'package:soperiem/main.dart';
 import 'package:path/path.dart' as path;
 
 import '../constant.dart';

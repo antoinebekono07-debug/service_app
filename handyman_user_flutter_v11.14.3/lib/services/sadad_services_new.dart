@@ -1,6 +1,6 @@
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/network/rest_apis.dart';
-import 'package:booking_system_flutter/screens/payment/payment_webview_screen.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/network/rest_apis.dart';
+import 'package:soperiem/screens/payment/payment_webview_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:nb_utils/nb_utils.dart';
 

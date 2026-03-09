@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/components/view_all_label_component.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/user_data.dart';
-import 'package:handyman_provider_flutter/provider/components/handyman_widget.dart';
-import 'package:handyman_provider_flutter/provider/handyman_list_screen.dart';
+import 'package:lotech/components/view_all_label_component.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/user_data.dart';
+import 'package:lotech/provider/components/handyman_widget.dart';
+import 'package:lotech/provider/handyman_list_screen.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../components/empty_error_state_widget.dart';

@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/images.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/images.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

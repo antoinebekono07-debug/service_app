@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:handyman_provider_flutter/utils/colors.dart';
-import 'package:handyman_provider_flutter/utils/extensions/string_extension.dart';
+import 'package:lotech/utils/colors.dart';
+import 'package:lotech/utils/extensions/string_extension.dart';
 import 'package:nb_utils/nb_utils.dart';
 import '../components/base_scaffold_widget.dart';
 import '../main.dart';

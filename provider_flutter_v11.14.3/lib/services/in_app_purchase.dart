@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/provider_subscription_model.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/provider_subscription_model.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 

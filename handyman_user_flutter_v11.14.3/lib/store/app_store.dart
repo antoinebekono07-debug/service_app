@@ -1,8 +1,8 @@
-import 'package:booking_system_flutter/locale/app_localizations.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/configs.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
+import 'package:soperiem/locale/app_localizations.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/configs.dart';
+import 'package:soperiem/utils/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mobx/mobx.dart';

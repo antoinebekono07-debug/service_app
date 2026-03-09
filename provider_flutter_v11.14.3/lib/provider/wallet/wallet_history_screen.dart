@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:handyman_provider_flutter/components/base_scaffold_widget.dart';
-import 'package:handyman_provider_flutter/main.dart';
-import 'package:handyman_provider_flutter/models/wallet_history_list_response.dart';
-import 'package:handyman_provider_flutter/networks/rest_apis.dart';
-import 'package:handyman_provider_flutter/provider/wallet/components/wallet_card.dart';
-import 'package:handyman_provider_flutter/provider/wallet/shimmer/wallet_history_shimmer.dart';
-import 'package:handyman_provider_flutter/utils/extensions/num_extenstions.dart';
+import 'package:lotech/components/base_scaffold_widget.dart';
+import 'package:lotech/main.dart';
+import 'package:lotech/models/wallet_history_list_response.dart';
+import 'package:lotech/networks/rest_apis.dart';
+import 'package:lotech/provider/wallet/components/wallet_card.dart';
+import 'package:lotech/provider/wallet/shimmer/wallet_history_shimmer.dart';
+import 'package:lotech/utils/extensions/num_extenstions.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../components/empty_error_state_widget.dart';

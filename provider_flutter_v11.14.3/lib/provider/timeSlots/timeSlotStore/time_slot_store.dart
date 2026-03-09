@@ -1,6 +1,6 @@
-import 'package:handyman_provider_flutter/provider/timeSlots/models/slot_data.dart';
-import 'package:handyman_provider_flutter/provider/timeSlots/services/time_slot_services.dart';
-import 'package:handyman_provider_flutter/utils/constant.dart';
+import 'package:lotech/provider/timeSlots/models/slot_data.dart';
+import 'package:lotech/provider/timeSlots/services/time_slot_services.dart';
+import 'package:lotech/utils/constant.dart';
 import 'package:mobx/mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
 
