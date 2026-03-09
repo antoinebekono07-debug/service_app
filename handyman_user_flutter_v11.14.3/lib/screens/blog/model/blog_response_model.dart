@@ -1,5 +1,5 @@
-import 'package:booking_system_flutter/model/package_data_model.dart';
-import 'package:booking_system_flutter/model/pagination_model.dart';
+import 'package:soperiem/model/package_data_model.dart';
+import 'package:soperiem/model/pagination_model.dart';
 
 class BlogResponse {
   Pagination? pagination;

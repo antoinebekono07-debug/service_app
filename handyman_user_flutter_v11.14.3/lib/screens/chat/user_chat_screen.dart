@@ -1,16 +1,16 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:booking_system_flutter/component/loader_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/chat_message_model.dart';
-import 'package:booking_system_flutter/model/user_data_model.dart';
-import 'package:booking_system_flutter/screens/chat/widget/chat_item_widget.dart';
-import 'package:booking_system_flutter/services/notification_services.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/common.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/string_extensions.dart';
+import 'package:soperiem/component/loader_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/chat_message_model.dart';
+import 'package:soperiem/model/user_data_model.dart';
+import 'package:soperiem/screens/chat/widget/chat_item_widget.dart';
+import 'package:soperiem/services/notification_services.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/common.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/string_extensions.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:firebase_pagination/firebase_pagination.dart';

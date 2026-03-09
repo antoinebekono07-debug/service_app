@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/screens/blog/model/blog_response_model.dart';
+import 'package:soperiem/screens/blog/model/blog_response_model.dart';
 
 class BlogDetailResponse {
   BlogData? blogDetail;

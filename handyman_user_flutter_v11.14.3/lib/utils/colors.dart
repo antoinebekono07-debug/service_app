@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/utils/configs.dart';
+import 'package:soperiem/utils/configs.dart';
 import 'package:flutter/material.dart';
 
 var primaryColor = defaultPrimaryColor;

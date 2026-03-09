@@ -1,5 +1,5 @@
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/screens/booking/component/slot_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/screens/booking/component/slot_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

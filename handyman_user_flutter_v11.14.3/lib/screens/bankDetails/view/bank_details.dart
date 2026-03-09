@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/screens/bankDetails/view/add_bank.dart';
+import 'package:soperiem/screens/bankDetails/view/add_bank.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

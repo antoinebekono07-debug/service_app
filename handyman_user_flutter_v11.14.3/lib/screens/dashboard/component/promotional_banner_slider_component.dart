@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:booking_system_flutter/main.dart';
+import 'package:soperiem/main.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:url_launcher/url_launcher.dart';

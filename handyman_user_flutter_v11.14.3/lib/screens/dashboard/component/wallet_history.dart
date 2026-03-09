@@ -1,7 +1,7 @@
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/extensions/num_extenstions.dart';
-import 'package:booking_system_flutter/utils/images.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/extensions/num_extenstions.dart';
+import 'package:soperiem/utils/images.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';

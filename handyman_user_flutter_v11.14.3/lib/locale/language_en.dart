@@ -1,5 +1,5 @@
-import 'package:booking_system_flutter/locale/languages.dart';
-import 'package:booking_system_flutter/utils/configs.dart';
+import 'package:soperiem/locale/languages.dart';
+import 'package:soperiem/utils/configs.dart';
 
 class LanguageEn extends BaseLanguage {
   @override

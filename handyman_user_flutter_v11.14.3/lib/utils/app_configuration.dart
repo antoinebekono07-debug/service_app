@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/utils/constant.dart';
+import 'package:soperiem/utils/constant.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../main.dart';

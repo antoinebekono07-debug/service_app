@@ -1,5 +1,5 @@
-import 'package:booking_system_flutter/model/service_detail_response.dart';
-import 'package:booking_system_flutter/model/user_data_model.dart';
+import 'package:soperiem/model/service_detail_response.dart';
+import 'package:soperiem/model/user_data_model.dart';
 
 import 'service_data_model.dart';
 

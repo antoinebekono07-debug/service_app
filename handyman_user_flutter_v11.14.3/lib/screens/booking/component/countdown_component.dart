@@ -1,7 +1,7 @@
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/booking_detail_model.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/model_keys.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/booking_detail_model.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/model_keys.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

@@ -1,9 +1,9 @@
-import 'package:booking_system_flutter/model/booking_list_model.dart';
-import 'package:booking_system_flutter/model/extra_charges_model.dart';
-import 'package:booking_system_flutter/model/package_data_model.dart';
-import 'package:booking_system_flutter/model/service_detail_response.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/model_keys.dart';
+import 'package:soperiem/model/booking_list_model.dart';
+import 'package:soperiem/model/extra_charges_model.dart';
+import 'package:soperiem/model/package_data_model.dart';
+import 'package:soperiem/model/service_detail_response.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/model_keys.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class BookingData {

@@ -1,7 +1,7 @@
-import 'package:booking_system_flutter/model/booking_data_model.dart';
-import 'package:booking_system_flutter/model/get_my_post_job_list_response.dart';
-import 'package:booking_system_flutter/model/service_data_model.dart';
-import 'package:booking_system_flutter/model/user_data_model.dart';
+import 'package:soperiem/model/booking_data_model.dart';
+import 'package:soperiem/model/get_my_post_job_list_response.dart';
+import 'package:soperiem/model/service_data_model.dart';
+import 'package:soperiem/model/user_data_model.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import 'service_detail_response.dart';

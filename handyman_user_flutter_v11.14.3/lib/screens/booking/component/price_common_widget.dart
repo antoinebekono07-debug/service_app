@@ -1,13 +1,13 @@
-import 'package:booking_system_flutter/component/price_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/booking_data_model.dart';
-import 'package:booking_system_flutter/model/package_data_model.dart';
-import 'package:booking_system_flutter/model/service_data_model.dart';
-import 'package:booking_system_flutter/model/service_detail_response.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/common.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/model_keys.dart';
+import 'package:soperiem/component/price_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/booking_data_model.dart';
+import 'package:soperiem/model/package_data_model.dart';
+import 'package:soperiem/model/service_data_model.dart';
+import 'package:soperiem/model/service_detail_response.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/common.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/model_keys.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

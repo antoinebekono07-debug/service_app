@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-import 'package:booking_system_flutter/component/back_widget.dart';
-import 'package:booking_system_flutter/component/base_scaffold_body.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/screens/auth/sign_up_screen.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/common.dart';
+import 'package:soperiem/component/back_widget.dart';
+import 'package:soperiem/component/base_scaffold_body.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/screens/auth/sign_up_screen.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/common.dart';
 import 'package:country_picker/country_picker.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

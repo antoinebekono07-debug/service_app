@@ -1,15 +1,15 @@
 import 'dart:async';
 
-import 'package:booking_system_flutter/component/cached_image_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/dashboard_model.dart';
-import 'package:booking_system_flutter/screens/notification/notification_screen.dart';
-import 'package:booking_system_flutter/screens/service/service_detail_screen.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/configs.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/images.dart';
-import 'package:booking_system_flutter/utils/string_extensions.dart';
+import 'package:soperiem/component/cached_image_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/dashboard_model.dart';
+import 'package:soperiem/screens/notification/notification_screen.dart';
+import 'package:soperiem/screens/service/service_detail_screen.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/configs.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/images.dart';
+import 'package:soperiem/utils/string_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';

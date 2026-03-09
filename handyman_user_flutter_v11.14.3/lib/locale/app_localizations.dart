@@ -1,7 +1,7 @@
-import 'package:booking_system_flutter/locale/language_ar.dart';
-import 'package:booking_system_flutter/locale/language_en.dart';
-import 'package:booking_system_flutter/locale/language_hi.dart';
-import 'package:booking_system_flutter/locale/languages.dart';
+import 'package:soperiem/locale/language_ar.dart';
+import 'package:soperiem/locale/language_en.dart';
+import 'package:soperiem/locale/language_hi.dart';
+import 'package:soperiem/locale/languages.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

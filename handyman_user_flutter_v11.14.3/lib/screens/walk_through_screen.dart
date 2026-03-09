@@ -1,7 +1,7 @@
-import 'package:booking_system_flutter/screens/dashboard/dashboard_screen.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/images.dart';
+import 'package:soperiem/screens/dashboard/dashboard_screen.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/images.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

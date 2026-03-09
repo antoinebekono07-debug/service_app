@@ -1,8 +1,8 @@
-import 'package:booking_system_flutter/component/back_widget.dart';
-import 'package:booking_system_flutter/component/cached_image_widget.dart';
-import 'package:booking_system_flutter/screens/blog/model/blog_response_model.dart';
-import 'package:booking_system_flutter/screens/gallery/gallery_component.dart';
-import 'package:booking_system_flutter/screens/gallery/gallery_screen.dart';
+import 'package:soperiem/component/back_widget.dart';
+import 'package:soperiem/component/cached_image_widget.dart';
+import 'package:soperiem/screens/blog/model/blog_response_model.dart';
+import 'package:soperiem/screens/gallery/gallery_component.dart';
+import 'package:soperiem/screens/gallery/gallery_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

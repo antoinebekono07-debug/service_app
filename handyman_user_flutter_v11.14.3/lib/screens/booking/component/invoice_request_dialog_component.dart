@@ -1,8 +1,8 @@
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/network/rest_apis.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/common.dart';
-import 'package:booking_system_flutter/utils/model_keys.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/network/rest_apis.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/common.dart';
+import 'package:soperiem/utils/model_keys.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:nb_utils/nb_utils.dart';

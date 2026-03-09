@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/network/rest_apis.dart';
-import 'package:booking_system_flutter/utils/common.dart';
-import 'package:booking_system_flutter/utils/configs.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/model_keys.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/network/rest_apis.dart';
+import 'package:soperiem/utils/common.dart';
+import 'package:soperiem/utils/configs.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/model_keys.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 import 'package:nb_utils/nb_utils.dart';

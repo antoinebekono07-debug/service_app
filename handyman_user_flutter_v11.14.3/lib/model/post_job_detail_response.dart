@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/model/get_my_post_job_list_response.dart';
+import 'package:soperiem/model/get_my_post_job_list_response.dart';
 
 class PostJobDetailResponse {
   PostJobData? postRequestDetail;

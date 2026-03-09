@@ -1,6 +1,6 @@
-import 'package:booking_system_flutter/component/dotted_line.dart';
-import 'package:booking_system_flutter/model/service_detail_response.dart';
-import 'package:booking_system_flutter/utils/extensions/num_extenstions.dart';
+import 'package:soperiem/component/dotted_line.dart';
+import 'package:soperiem/model/service_detail_response.dart';
+import 'package:soperiem/utils/extensions/num_extenstions.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';

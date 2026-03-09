@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:booking_system_flutter/model/package_data_model.dart';
-import 'package:booking_system_flutter/model/slot_data.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/extensions/num_extenstions.dart';
+import 'package:soperiem/model/package_data_model.dart';
+import 'package:soperiem/model/slot_data.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/extensions/num_extenstions.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../utils/app_configuration.dart';

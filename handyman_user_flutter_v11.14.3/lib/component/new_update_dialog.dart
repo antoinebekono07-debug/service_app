@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/common.dart';
-import 'package:booking_system_flutter/utils/configs.dart';
-import 'package:booking_system_flutter/utils/images.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/utils/colors.dart';
+import 'package:soperiem/utils/common.dart';
+import 'package:soperiem/utils/configs.dart';
+import 'package:soperiem/utils/images.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:url_launcher/url_launcher.dart';

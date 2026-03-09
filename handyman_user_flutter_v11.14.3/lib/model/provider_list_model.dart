@@ -1,5 +1,5 @@
-import 'package:booking_system_flutter/model/pagination_model.dart';
-import 'package:booking_system_flutter/model/user_data_model.dart';
+import 'package:soperiem/model/pagination_model.dart';
+import 'package:soperiem/model/user_data_model.dart';
 
 class ProviderListResponse {
   Pagination? pagination;

@@ -1,9 +1,9 @@
-import 'package:booking_system_flutter/component/cached_image_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/user_data_model.dart';
-import 'package:booking_system_flutter/screens/chat/user_chat_screen.dart';
-import 'package:booking_system_flutter/screens/chat/widget/last_messege_chat.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
+import 'package:soperiem/component/cached_image_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/user_data_model.dart';
+import 'package:soperiem/screens/chat/user_chat_screen.dart';
+import 'package:soperiem/screens/chat/widget/last_messege_chat.dart';
+import 'package:soperiem/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

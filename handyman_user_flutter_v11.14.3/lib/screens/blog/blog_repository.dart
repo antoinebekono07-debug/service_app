@@ -1,10 +1,10 @@
 // region Blog API
 
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/network/network_utils.dart';
-import 'package:booking_system_flutter/screens/blog/model/blog_detail_response.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
-import 'package:booking_system_flutter/utils/model_keys.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/network/network_utils.dart';
+import 'package:soperiem/screens/blog/model/blog_detail_response.dart';
+import 'package:soperiem/utils/constant.dart';
+import 'package:soperiem/utils/model_keys.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import 'model/blog_response_model.dart';

@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/model/user_data_model.dart';
+import 'package:soperiem/model/user_data_model.dart';
 
 class LoginResponse {
   UserData? userData;

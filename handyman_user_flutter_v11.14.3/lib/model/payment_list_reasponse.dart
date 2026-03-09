@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/model/service_detail_response.dart';
+import 'package:soperiem/model/service_detail_response.dart';
 
 import 'extra_charges_model.dart';
 

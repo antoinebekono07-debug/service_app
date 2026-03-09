@@ -1,9 +1,9 @@
-import 'package:booking_system_flutter/component/loader_widget.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/user_data_model.dart';
-import 'package:booking_system_flutter/screens/auth/sign_in_screen.dart';
-import 'package:booking_system_flutter/screens/chat/widget/user_item_widget.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
+import 'package:soperiem/component/loader_widget.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/user_data_model.dart';
+import 'package:soperiem/screens/auth/sign_in_screen.dart';
+import 'package:soperiem/screens/chat/widget/user_item_widget.dart';
+import 'package:soperiem/utils/constant.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_pagination/firebase_pagination.dart';
 import 'package:flutter/material.dart';

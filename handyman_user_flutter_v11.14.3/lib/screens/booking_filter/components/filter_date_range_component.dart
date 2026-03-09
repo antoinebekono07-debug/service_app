@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/screens/booking_filter/components/date_component/custom_date_range_picker.dart';
+import 'package:soperiem/screens/booking_filter/components/date_component/custom_date_range_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';

@@ -1,7 +1,7 @@
-import 'package:booking_system_flutter/component/view_all_label_component.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/model/service_data_model.dart';
-import 'package:booking_system_flutter/screens/service/component/service_component.dart';
+import 'package:soperiem/component/view_all_label_component.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/model/service_data_model.dart';
+import 'package:soperiem/screens/service/component/service_component.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

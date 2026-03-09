@@ -1,5 +1,5 @@
-import 'package:booking_system_flutter/component/spin_kit_chasing_dots.dart';
-import 'package:booking_system_flutter/utils/colors.dart';
+import 'package:soperiem/component/spin_kit_chasing_dots.dart';
+import 'package:soperiem/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class LoaderWidget extends StatefulWidget {

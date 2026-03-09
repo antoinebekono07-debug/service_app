@@ -1,18 +1,18 @@
 import 'dart:io';
 
-import 'package:booking_system_flutter/component/app_common_dialog.dart';
-import 'package:booking_system_flutter/component/html_widget.dart';
-import 'package:booking_system_flutter/component/location_service_dialog.dart';
-import 'package:booking_system_flutter/component/new_update_dialog.dart';
-import 'package:booking_system_flutter/main.dart';
-import 'package:booking_system_flutter/network/rest_apis.dart';
-import 'package:booking_system_flutter/screens/auth/sign_in_screen.dart';
-import 'package:booking_system_flutter/services/location_service.dart';
-import 'package:booking_system_flutter/store/app_store.dart';
-import 'package:booking_system_flutter/utils/colors.dart' as booking_colors;
-import 'package:booking_system_flutter/utils/images.dart';
-import 'package:booking_system_flutter/utils/permissions.dart';
-import 'package:booking_system_flutter/utils/string_extensions.dart';
+import 'package:soperiem/component/app_common_dialog.dart';
+import 'package:soperiem/component/html_widget.dart';
+import 'package:soperiem/component/location_service_dialog.dart';
+import 'package:soperiem/component/new_update_dialog.dart';
+import 'package:soperiem/main.dart';
+import 'package:soperiem/network/rest_apis.dart';
+import 'package:soperiem/screens/auth/sign_in_screen.dart';
+import 'package:soperiem/services/location_service.dart';
+import 'package:soperiem/store/app_store.dart';
+import 'package:soperiem/utils/colors.dart' as booking_colors;
+import 'package:soperiem/utils/images.dart';
+import 'package:soperiem/utils/permissions.dart';
+import 'package:soperiem/utils/string_extensions.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -33,7 +33,8 @@ import 'app_configuration.dart';
 import 'colors.dart';
 import 'constant.dart';
 
-Future<bool> get isIqonicProduct async => await getPackageName() == appPackageName;
+Future<bool> get isIqonicProduct async =>
+    await getPackageName() == appPackageName;
 
 bool get isUserTypeHandyman => appStore.userType == USER_TYPE_HANDYMAN;
 
@@ -49,11 +50,15 @@ bool get isLoginTypeApple => appStore.loginType == LOGIN_TYPE_APPLE;
 
 bool get isLoginTypeOTP => appStore.loginType == LOGIN_TYPE_OTP;
 
-ThemeMode get appThemeMode => appStore.isDarkMode ? ThemeMode.dark : ThemeMode.light;
+ThemeMode get appThemeMode =>
+    appStore.isDarkMode ? ThemeMode.dark : ThemeMode.light;
 
 bool get isRTL => RTL_LanguageS.contains(appStore.selectedLanguageCode);
 
-Future<void> commonLaunchUrl(String address, {LaunchMode launchMode = LaunchMode.inAppWebView}) async {
+Future<void> commonLaunchUrl(
+  String address, {
+  LaunchMode launchMode = LaunchMode.inAppWebView,
+}) async {
   await launchUrl(Uri.parse(address), mode: launchMode).catchError((e) {
     toast('${language.invalidURL}: $address');
 
@@ -70,15 +75,24 @@ void viewFiles(String url) {
 void launchCall(String? url) {
   if (url.validate().isNotEmpty) {
     if (isIOS)
-      commonLaunchUrl('tel://' + url!, launchMode: LaunchMode.externalApplication);
+      commonLaunchUrl(
+        'tel://' + url!,
+        launchMode: LaunchMode.externalApplication,
+      );
     else
-      commonLaunchUrl('tel:' + url!, launchMode: LaunchMode.externalApplication);
+      commonLaunchUrl(
+        'tel:' + url!,
+        launchMode: LaunchMode.externalApplication,
+      );
   }
 }
 
 void launchMap(String? url) {
   if (url.validate().isNotEmpty) {
-    commonLaunchUrl(GOOGLE_MAP_PREFIX + Uri.encodeFull(url!), launchMode: LaunchMode.externalApplication);
+    commonLaunchUrl(
+      GOOGLE_MAP_PREFIX + Uri.encodeFull(url!),
+      launchMode: LaunchMode.externalApplication,
+    );
   }
 }
 
@@ -109,14 +123,17 @@ void launchUrlCustomTab(String? url) {
       Uri.parse(url!),
       customTabsOptions: custom_tabs.CustomTabsOptions(
         showTitle: true,
-        colorSchemes: custom_tabs.CustomTabsColorSchemes.defaults(toolbarColor: primaryColor),
+        colorSchemes: custom_tabs.CustomTabsColorSchemes.defaults(
+          toolbarColor: primaryColor,
+        ),
       ),
       safariVCOptions: custom_tabs.SafariViewControllerOptions(
         preferredBarTintColor: primaryColor,
         preferredControlTintColor: Colors.white,
         barCollapsingEnabled: true,
         entersReaderIfAvailable: true,
-        dismissButtonStyle: custom_tabs.SafariViewControllerDismissButtonStyle.close,
+        dismissButtonStyle:
+            custom_tabs.SafariViewControllerDismissButtonStyle.close,
       ),
     );
   }
@@ -124,11 +141,41 @@ void launchUrlCustomTab(String? url) {
 
 List<LanguageDataModel> languageList() {
   return [
-    LanguageDataModel(id: 1, name: 'English', languageCode: 'en', fullLanguageCode: 'en-US', flag: 'assets/flag/ic_us.png'),
-    LanguageDataModel(id: 2, name: 'Hindi', languageCode: 'hi', fullLanguageCode: 'hi-IN', flag: 'assets/flag/ic_india.png'),
-    LanguageDataModel(id: 3, name: 'Arabic', languageCode: 'ar', fullLanguageCode: 'ar-AR', flag: 'assets/flag/ic_ar.png'),
-    LanguageDataModel(id: 4, name: 'French', languageCode: 'fr', fullLanguageCode: 'fr-FR', flag: 'assets/flag/ic_fr.png'),
-    LanguageDataModel(id: 5, name: 'German', languageCode: 'de', fullLanguageCode: 'de-DE', flag: 'assets/flag/ic_de.png'),
+    LanguageDataModel(
+      id: 1,
+      name: 'English',
+      languageCode: 'en',
+      fullLanguageCode: 'en-US',
+      flag: 'assets/flag/ic_us.png',
+    ),
+    LanguageDataModel(
+      id: 2,
+      name: 'Hindi',
+      languageCode: 'hi',
+      fullLanguageCode: 'hi-IN',
+      flag: 'assets/flag/ic_india.png',
+    ),
+    LanguageDataModel(
+      id: 3,
+      name: 'Arabic',
+      languageCode: 'ar',
+      fullLanguageCode: 'ar-AR',
+      flag: 'assets/flag/ic_ar.png',
+    ),
+    LanguageDataModel(
+      id: 4,
+      name: 'French',
+      languageCode: 'fr',
+      fullLanguageCode: 'fr-FR',
+      flag: 'assets/flag/ic_fr.png',
+    ),
+    LanguageDataModel(
+      id: 5,
+      name: 'German',
+      languageCode: 'de',
+      fullLanguageCode: 'de-DE',
+      flag: 'assets/flag/ic_de.png',
+    ),
   ];
 }
 
@@ -188,28 +235,54 @@ String parseHtmlString(String? htmlString) {
   return parse(parse(htmlString).body!.text).documentElement!.text;
 }
 
-String formatDate(String? dateTime, {bool isFromMicrosecondsSinceEpoch = false, bool isLanguageNeeded = true, bool isTime = false, bool showDateWithTime = false}) {
+String formatDate(
+  String? dateTime, {
+  bool isFromMicrosecondsSinceEpoch = false,
+  bool isLanguageNeeded = true,
+  bool isTime = false,
+  bool showDateWithTime = false,
+}) {
   final languageCode = isLanguageNeeded ? appStore.selectedLanguageCode : null;
-  final parsedDateTime = isFromMicrosecondsSinceEpoch ? DateTime.fromMicrosecondsSinceEpoch(dateTime.validate().toInt() * 1000) : DateTime.parse(dateTime.validate());
+  final parsedDateTime = isFromMicrosecondsSinceEpoch
+      ? DateTime.fromMicrosecondsSinceEpoch(dateTime.validate().toInt() * 1000)
+      : DateTime.parse(dateTime.validate());
   if (isTime) {
-    return DateFormat('${getStringAsync(TIME_FORMAT)}', languageCode).format(parsedDateTime);
+    return DateFormat(
+      '${getStringAsync(TIME_FORMAT)}',
+      languageCode,
+    ).format(parsedDateTime);
   } else {
     if (getStringAsync(DATE_FORMAT).validate().contains('dS')) {
       int day = parsedDateTime.day;
-      if (DateFormat('${getStringAsync(DATE_FORMAT)}', languageCode).format(parsedDateTime).contains('$day')) {
-        return DateFormat('${getStringAsync(DATE_FORMAT).replaceAll('S', '')}${showDateWithTime ? ' ${getStringAsync(TIME_FORMAT)}' : ''}', languageCode)
-            .format(parsedDateTime)
-            .replaceFirst('$day', '${addOrdinalSuffix(day)}');
+      if (DateFormat(
+        '${getStringAsync(DATE_FORMAT)}',
+        languageCode,
+      ).format(parsedDateTime).contains('$day')) {
+        return DateFormat(
+          '${getStringAsync(DATE_FORMAT).replaceAll('S', '')}${showDateWithTime ? ' ${getStringAsync(TIME_FORMAT)}' : ''}',
+          languageCode,
+        ).format(parsedDateTime).replaceFirst('$day', '${addOrdinalSuffix(day)}');
       }
     }
-    return DateFormat('${getStringAsync(DATE_FORMAT)}${showDateWithTime ? ' ${getStringAsync(TIME_FORMAT)}' : ''}', languageCode).format(parsedDateTime);
+    return DateFormat(
+      '${getStringAsync(DATE_FORMAT)}${showDateWithTime ? ' ${getStringAsync(TIME_FORMAT)}' : ''}',
+      languageCode,
+    ).format(parsedDateTime);
   }
 }
 
-String formatBookingDate(String? dateTime,
-    {String format = DATE_FORMAT_1, bool isFromMicrosecondsSinceEpoch = false, bool isLanguageNeeded = true, bool isTime = false, bool showDateWithTime = false}) {
+String formatBookingDate(
+  String? dateTime, {
+  String format = DATE_FORMAT_1,
+  bool isFromMicrosecondsSinceEpoch = false,
+  bool isLanguageNeeded = true,
+  bool isTime = false,
+  bool showDateWithTime = false,
+}) {
   final languageCode = isLanguageNeeded ? appStore.selectedLanguageCode : null;
-  final parsedDateTime = isFromMicrosecondsSinceEpoch ? DateTime.fromMicrosecondsSinceEpoch(dateTime.validate().toInt() * 1000) : DateTime.parse(dateTime.validate());
+  final parsedDateTime = isFromMicrosecondsSinceEpoch
+      ? DateTime.fromMicrosecondsSinceEpoch(dateTime.validate().toInt() * 1000)
+      : DateTime.parse(dateTime.validate());
 
   return DateFormat(format, languageCode).format(parsedDateTime);
 }
@@ -217,7 +290,14 @@ String formatBookingDate(String? dateTime,
 String getSlotWithDate({required String date, required String slotTime}) {
   DateTime originalDateTime = DateFormat('yyyy-MM-dd HH:mm:ss').parse(date);
   DateTime newTime = DateFormat('HH:mm:ss').parse(slotTime);
-  DateTime newDateTime = DateTime(originalDateTime.year, originalDateTime.month, originalDateTime.day, newTime.hour, newTime.minute, newTime.second);
+  DateTime newDateTime = DateTime(
+    originalDateTime.year,
+    originalDateTime.month,
+    originalDateTime.day,
+    newTime.hour,
+    newTime.minute,
+    newTime.second,
+  );
   return DateFormat('yyyy-MM-dd HH:mm:ss').format(newDateTime);
 }
 
@@ -311,110 +391,125 @@ bool containsTime(String dateString) {
 
 Future<bool> addToWishList({required int serviceId}) async {
   Map req = {"id": "", "service_id": serviceId, "user_id": appStore.userId};
-  return await addWishList(req).then((res) {
-    toast(language.serviceAddedToFavourite);
-    return true;
-  }).catchError((error) {
-    toast(error.toString());
-    return false;
-  });
+  return await addWishList(req)
+      .then((res) {
+        toast(language.serviceAddedToFavourite);
+        return true;
+      })
+      .catchError((error) {
+        toast(error.toString());
+        return false;
+      });
 }
 
 Future<bool> removeToWishList({required int serviceId}) async {
   Map req = {"user_id": appStore.userId, 'service_id': serviceId};
 
-  return await removeWishList(req).then((res) {
-    toast(language.serviceRemovedFromFavourite);
-    return true;
-  }).catchError((error) {
-    toast(error.toString());
-    return false;
-  });
+  return await removeWishList(req)
+      .then((res) {
+        toast(language.serviceRemovedFromFavourite);
+        return true;
+      })
+      .catchError((error) {
+        toast(error.toString());
+        return false;
+      });
 }
 
 void locationWiseService(BuildContext context, VoidCallback onTap) async {
-  Permissions.cameraFilesAndLocationPermissionsGranted().then((value) async {
-    await setValue(PERMISSION_STATUS, value);
-
-    if (value) {
-      bool? res = await showInDialog(
-        context,
-        contentPadding: EdgeInsets.zero,
-        builder: (p0) {
-          return AppCommonDialog(
-            title: language.lblAlert,
-            child: LocationServiceDialog(),
-          );
-        },
-      );
-
-      if (res ?? false) {
-        appStore.setLoading(true);
-
+  Permissions.cameraFilesAndLocationPermissionsGranted()
+      .then((value) async {
         await setValue(PERMISSION_STATUS, value);
-        await getUserLocation().then((value) async {
-          await appStore.setCurrentLocation(!appStore.isCurrentLocation);
-        }).catchError((e) {
-          appStore.setLoading(false);
-          toast(e.toString(), print: true);
-        });
 
-        onTap.call();
-      }
-    }
-  }).catchError((e) {
-    toast(e.toString(), print: true);
-  });
+        if (value) {
+          bool? res = await showInDialog(
+            context,
+            contentPadding: EdgeInsets.zero,
+            builder: (p0) {
+              return AppCommonDialog(
+                title: language.lblAlert,
+                child: LocationServiceDialog(),
+              );
+            },
+          );
+
+          if (res ?? false) {
+            appStore.setLoading(true);
+
+            await setValue(PERMISSION_STATUS, value);
+            await getUserLocation()
+                .then((value) async {
+                  await appStore.setCurrentLocation(
+                    !appStore.isCurrentLocation,
+                  );
+                })
+                .catchError((e) {
+                  appStore.setLoading(false);
+                  toast(e.toString(), print: true);
+                });
+
+            onTap.call();
+          }
+        }
+      })
+      .catchError((e) {
+        toast(e.toString(), print: true);
+      });
 }
 
 void location(BuildContext context, {VoidCallback? onRefresh}) async {
-  Permissions.cameraFilesAndLocationPermissionsGranted().then((permissionGranted) async {
-    await setValue(PERMISSION_STATUS, permissionGranted);
+  Permissions.cameraFilesAndLocationPermissionsGranted()
+      .then((permissionGranted) async {
+        await setValue(PERMISSION_STATUS, permissionGranted);
 
-    if (permissionGranted) {
-      bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
+        if (permissionGranted) {
+          bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
 
-      if (!serviceEnabled) {
-         await showInDialog(
-          context,
-          contentPadding: EdgeInsets.zero,
-          builder: (p0) {
-            return AppCommonDialog(
-              title: language.lblAlert,
-              child: LocationServiceDialog(),
+          if (!serviceEnabled) {
+            await showInDialog(
+              context,
+              contentPadding: EdgeInsets.zero,
+              builder: (p0) {
+                return AppCommonDialog(
+                  title: language.lblAlert,
+                  child: LocationServiceDialog(),
+                );
+              },
             );
-          },
-        );
 
-        serviceEnabled = await Geolocator.isLocationServiceEnabled();
+            serviceEnabled = await Geolocator.isLocationServiceEnabled();
 
-        if (!serviceEnabled) {
-          toast(language.lblEnableLocation);
+            if (!serviceEnabled) {
+              toast(language.lblEnableLocation);
+              if (onRefresh != null) onRefresh.call();
+              return;
+            }
+          }
+
+          appStore.setLoading(true);
+
+          await getUserLocation()
+              .then((_) async {
+                await appStore.setCurrentLocation(!appStore.isCurrentLocation);
+                appStore.setLoading(false);
+                if (onRefresh != null) onRefresh.call();
+              })
+              .catchError((e) {
+                appStore.setLoading(false);
+                toast(e.toString(), print: true);
+                if (onRefresh != null) onRefresh.call(); // <- Still refresh!
+              });
+        } else {
+          // Permission Denied - Still load dashboard with fallback data
           if (onRefresh != null) onRefresh.call();
-          return;
         }
-      }
-
-      appStore.setLoading(true);
-
-      await getUserLocation().then((_) async {
-        await appStore.setCurrentLocation(!appStore.isCurrentLocation);
-        appStore.setLoading(false);
-        if (onRefresh != null) onRefresh.call();
-      }).catchError((e) {
+      })
+      .catchError((e) {
         appStore.setLoading(false);
         toast(e.toString(), print: true);
-        if (onRefresh != null) onRefresh.call(); // <- Still refresh!
+        if (onRefresh != null)
+          onRefresh.call(); // <- Handle error by calling init()
       });
-    } else {
-      // Permission Denied - Still load dashboard with fallback data
-      if (onRefresh != null) onRefresh.call();
-    }
-  }).catchError((e) {
-    appStore.setLoading(false);
-    toast(e.toString(), print: true);
-    if (onRefresh != null) onRefresh.call(); // <- Handle error by calling init()
-  });
 }
 
 Future<List<File>> pickFiles({
@@ -476,9 +571,13 @@ String calculateTimer(int secTime) {
 
   seconds = secTime - (hour * 3600) - (minute * 60);
 
-  String hourLeft = hour.toString().length < 2 ? "0" + hour.toString() : hour.toString();
+  String hourLeft = hour.toString().length < 2
+      ? "0" + hour.toString()
+      : hour.toString();
 
-  String minuteLeft = minute.toString().length < 2 ? "0" + minute.toString() : minute.toString();
+  String minuteLeft = minute.toString().length < 2
+      ? "0" + minute.toString()
+      : minute.toString();
 
   String minutes = minuteLeft == '00' ? '01' : minuteLeft;
 
@@ -505,7 +604,9 @@ String convertToHourMinute(String timeStr) {
     result += '${hours}${language.lblHr}';
   }
   if (minutes > 0) {
-    result = (result.validate().isNotEmpty) ? '$result $minutes ${language.min}' : '$minutes ${language.min}';
+    result = (result.validate().isNotEmpty)
+        ? '$result $minutes ${language.min}'
+        : '$minutes ${language.min}';
   }
   return result;
 }
@@ -513,7 +614,8 @@ String convertToHourMinute(String timeStr) {
 String getPaymentStatusFilterText(String? status) {
   if (status!.isEmpty) {
     return language.lblPending;
-  } else if (status == SERVICE_PAYMENT_STATUS_PAID || status == PENDING_BY_ADMIN) {
+  } else if (status == SERVICE_PAYMENT_STATUS_PAID ||
+      status == PENDING_BY_ADMIN) {
     return language.paid;
   } else if (status == SERVICE_PAYMENT_STATUS_ADVANCE_PAID) {
     return language.advancePaid;
@@ -529,12 +631,16 @@ String getPaymentStatusFilterText(String? status) {
 String getPaymentStatusText(String? status, String? method) {
   if (status!.isEmpty) {
     return language.lblPending;
-  } else if (status == SERVICE_PAYMENT_STATUS_PAID || status == PENDING_BY_ADMIN) {
+  } else if (status == SERVICE_PAYMENT_STATUS_PAID ||
+      status == PENDING_BY_ADMIN) {
     return language.paid;
   } else if (status == SERVICE_PAYMENT_STATUS_ADVANCE_PAID) {
     return language.advancePaid;
-  } else if ((status == SERVICE_PAYMENT_STATUS_PENDING || status == 'pending_approval') && method == PAYMENT_METHOD_COD) {
-    return language.pendingApproval; //TODO: check this condition 'pending_approval' status not coming from backend
+  } else if ((status == SERVICE_PAYMENT_STATUS_PENDING ||
+          status == 'pending_approval') &&
+      method == PAYMENT_METHOD_COD) {
+    return language
+        .pendingApproval; //TODO: check this condition 'pending_approval' status not coming from backend
   } else if (status == SERVICE_PAYMENT_STATUS_PENDING) {
     return language.lblPending;
   } else if (status == SERVICE_PAYMENT_STATUS_ADVANCE_REFUND) {
@@ -584,17 +690,29 @@ Widget get trailing {
   return ic_arrow_right.iconImage(size: 16);
 }
 
-void showNewUpdateDialog(BuildContext context, {required int currentAppVersionCode}) async {
+void showNewUpdateDialog(
+  BuildContext context, {
+  required int currentAppVersionCode,
+}) async {
   showInDialog(
     context,
     contentPadding: EdgeInsets.zero,
-    barrierDismissible: currentAppVersionCode >= getIntAsync(USER_APP_MINIMUM_VERSION).toInt(),
+    barrierDismissible:
+        currentAppVersionCode >= getIntAsync(USER_APP_MINIMUM_VERSION).toInt(),
     builder: (_) {
       return WillPopScope(
         onWillPop: () {
-          return Future(() => currentAppVersionCode >= getIntAsync(USER_APP_MINIMUM_VERSION).toInt());
+          return Future(
+            () =>
+                currentAppVersionCode >=
+                getIntAsync(USER_APP_MINIMUM_VERSION).toInt(),
+          );
         },
-        child: NewUpdateDialog(canClose: currentAppVersionCode >= getIntAsync(USER_APP_MINIMUM_VERSION).toInt()),
+        child: NewUpdateDialog(
+          canClose:
+              currentAppVersionCode >=
+              getIntAsync(USER_APP_MINIMUM_VERSION).toInt(),
+        ),
       );
     },
   );
@@ -603,10 +721,20 @@ void showNewUpdateDialog(BuildContext context, {required int currentAppVersionCo
 Future<void> showForceUpdateDialog(BuildContext context) async {
   if (getBoolAsync(UPDATE_NOTIFY, defaultValue: true)) {
     getPackageInfo().then((value) {
-      if (isAndroid && getIntAsync(USER_APP_LATEST_VERSION).toInt() > value.versionCode.validate().toInt()) {
-        showNewUpdateDialog(context, currentAppVersionCode: value.versionCode.validate().toInt());
-      } else if (isIOS && getIntAsync(USER_APP_LATEST_VERSION).toInt() > value.versionCode.validate().toInt()) {
-        showNewUpdateDialog(context, currentAppVersionCode: value.versionCode.validate().toInt());
+      if (isAndroid &&
+          getIntAsync(USER_APP_LATEST_VERSION).toInt() >
+              value.versionCode.validate().toInt()) {
+        showNewUpdateDialog(
+          context,
+          currentAppVersionCode: value.versionCode.validate().toInt(),
+        );
+      } else if (isIOS &&
+          getIntAsync(USER_APP_LATEST_VERSION).toInt() >
+              value.versionCode.validate().toInt()) {
+        showNewUpdateDialog(
+          context,
+          currentAppVersionCode: value.versionCode.validate().toInt(),
+        );
       }
     });
   }
@@ -615,8 +743,12 @@ Future<void> showForceUpdateDialog(BuildContext context) async {
 bool checkTimeDifference({required DateTime inputDateTime}) {
   DateTime currentTime = DateTime.now();
 
-  log("Booking Time Diffrence ==> ${inputDateTime.difference(currentTime).inHours}");
-  if (currentTime.isBefore(inputDateTime) && inputDateTime.difference(currentTime).inHours <= appConfigurationStore.cancellationChargeHours) {
+  log(
+    "Booking Time Diffrence ==> ${inputDateTime.difference(currentTime).inHours}",
+  );
+  if (currentTime.isBefore(inputDateTime) &&
+      inputDateTime.difference(currentTime).inHours <=
+          appConfigurationStore.cancellationChargeHours) {
     return true;
   }
 
@@ -641,7 +773,10 @@ String bankAccountWidget(String accountNo) {
 Widget mobileNumberInfoWidget(BuildContext context) {
   return RichTextWidget(
     list: [
-      TextSpan(text: '${language.addYourCountryCode}', style: secondaryTextStyle()),
+      TextSpan(
+        text: '${language.addYourCountryCode}',
+        style: secondaryTextStyle(),
+      ),
       TextSpan(text: ' "91-", "236-" ', style: boldTextStyle(size: 12)),
       TextSpan(
         text: ' (${language.help})',
@@ -680,7 +815,10 @@ class OptionListWidget extends StatelessWidget {
               ),
             ),
             8.width,
-            Text("|", style: secondaryTextStyle()).visible(optionList.length != index + 1),
+            Text(
+              "|",
+              style: secondaryTextStyle(),
+            ).visible(optionList.length != index + 1),
             8.width,
           ],
         ),
@@ -753,7 +891,9 @@ Future<List<File>> getMultipleImageSource({bool isCamera = true}) async {
 }
 
 Future<File> getCameraImage({bool isCamera = true}) async {
-  final pickedImage = await ImagePicker().pickImage(source: isCamera ? ImageSource.camera : ImageSource.gallery);
+  final pickedImage = await ImagePicker().pickImage(
+    source: isCamera ? ImageSource.camera : ImageSource.gallery,
+  );
   return File(pickedImage!.path);
 }
 
@@ -774,35 +914,56 @@ class MultiLanguageWidget extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,
-              children: List.generate(
-                languageList().length,
-                (index) {
-                  LanguageDataModel languageData = languageList()[index];
-                  return ElevatedButton(
-                    onPressed: () {
-                      onTap(languageData);
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: appStore.selectedLanguage.languageCode == languageData.languageCode ? primaryColor : context.scaffoldBackgroundColor,
-                      elevation: 0,
-                      side: BorderSide(width: 1, color: context.iconColor),
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
-                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 2),
+              children: List.generate(languageList().length, (index) {
+                LanguageDataModel languageData = languageList()[index];
+                return ElevatedButton(
+                  onPressed: () {
+                    onTap(languageData);
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor:
+                        appStore.selectedLanguage.languageCode ==
+                            languageData.languageCode
+                        ? primaryColor
+                        : context.scaffoldBackgroundColor,
+                    elevation: 0,
+                    side: BorderSide(width: 1, color: context.iconColor),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(4),
                     ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        CachedImageWidget(url: languageData.flag.validate(), height: 16),
-                        4.width,
-                        Text(languageData.name.validate().toUpperCase(),
-                            style: secondaryTextStyle(color: appStore.selectedLanguage.languageCode == languageData.languageCode ? white : textSecondaryColorGlobal))
-                      ],
-                    ),
-                  ).paddingOnly(right: 8, left: languageList().first.languageCode == languageData.languageCode ? 16 : 0);
-                },
-              ),
+                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 2),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      CachedImageWidget(
+                        url: languageData.flag.validate(),
+                        height: 16,
+                      ),
+                      4.width,
+                      Text(
+                        languageData.name.validate().toUpperCase(),
+                        style: secondaryTextStyle(
+                          color:
+                              appStore.selectedLanguage.languageCode ==
+                                  languageData.languageCode
+                              ? white
+                              : textSecondaryColorGlobal,
+                        ),
+                      ),
+                    ],
+                  ),
+                ).paddingOnly(
+                  right: 8,
+                  left:
+                      languageList().first.languageCode ==
+                          languageData.languageCode
+                      ? 16
+                      : 0,
+                );
+              }),
             ),
           ),
         );

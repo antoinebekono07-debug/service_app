@@ -1,4 +1,4 @@
-import 'package:booking_system_flutter/locale/languages.dart';
+import 'package:soperiem/locale/languages.dart';
 
 import '../utils/configs.dart';
 
