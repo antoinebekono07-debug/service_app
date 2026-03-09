@@ -7,7 +7,7 @@ const DEFAULT_LANGUAGE = 'en';
 const primaryColor = Color(0xFF5F60B9);
 
 /// Live Url
-const DOMAIN_URL = "https://hyman-production.up.railway.app";
+const DOMAIN_URL = "https://hyman-production-0308.up.railway.app";
 
 const BASE_URL = "$DOMAIN_URL/api/";
 
